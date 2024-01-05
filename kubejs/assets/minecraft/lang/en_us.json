@@ -1,0 +1,12 @@
+{
+	"block.mekanism.precision_sawmill": "Precision Cutter",
+	"block.mekanism.steel_casing": "Netherite Casing",
+	"item.mekanism.fluorite_gem": "Fluorite Shard",
+	"gas.kubejs.uranyl_carbonate": "Concentrated Uranyl Carbonate",
+	"gas.kubejs.uranium_solution": "Concentrated Uranium Solution",
+	"gas.kubejs.uranium_peroxide": "Concentrated Uranium Peroxide",
+	"gas.kubejs.dilute_radioactive_sludge": "Dilute Radioactive Sludge",
+	"gas.kubejs.nitrogen":"Nitrogen Gas",
+	"gas.kubejs.nitric_acid":"Nitric Acid",
+	"gas.kubejs.hydrogen_peroxide":"Hydrogen Peroxide"
+}

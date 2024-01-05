@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food__farming"
+	group: "7919D056D869FB4C"
+	hide_quest_details_until_startable: true
+	icon: "pamhc2foodextended:steakandchipsitem"
+	id: "50850FD87E9CFB56"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F9FD10952C94253"]
+			id: "12AD37344F9AF0C6"
+			tasks: [{
+				id: "61B6ED4259AC3898"
+				title: "Harvestcraft"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Thirst is just as important as hunger. Youre going to need to worry about it."
+				""
+				"For now, the easiest sources of thirst are pressed fruits. Juices."
+			]
+			id: "03681F392B510665"
+			subtitle: "More stuff to worry about, for now."
+			tasks: [{
+				id: "50766944C145BAB1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:juices"
+					}
+				}
+				title: "Any #forge:juices"
+				type: "item"
+			}]
+			title: "Thirst? Why??"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"03681F392B510665"
+				"7EF0AD2B6F8D3AC5"
+			]
+			id: "53806C9C63D7BC48"
+			tasks: [{
+				id: "361FB4D182B9ACB6"
+				item: "thirst:sand_filter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "7EF0AD2B6F8D3AC5"
+			shape: "rsquare"
+			tasks: [{
+				id: "2954512B4F72E05D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03681F392B510665"]
+			description: ["Jelly is twice as easy to make as juices. Just add sugar! Its a bit more saturating than a smoothie."]
+			id: "6A667616DE93DFDD"
+			subtitle: "Improved!"
+			tasks: [{
+				id: "5346F3CD65A083AA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:jellies"
+					}
+				}
+				title: "Any #forge:jellies"
+				type: "item"
+			}]
+			title: "Jelly!"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03681F392B510665"]
+			description: ["Smoothies are twice as easy to make as juices. Just add snow! Its a bit more filling than jelly."]
+			id: "00C027766F4AE2F3"
+			subtitle: "Improved!"
+			tasks: [{
+				id: "5954378FA780B41B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:smoothie"
+					}
+				}
+				title: "Any #forge:smoothie"
+				type: "item"
+			}]
+			title: "Smoothie!"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53806C9C63D7BC48"]
+			id: "6ECC1EB7536F0644"
+			tasks: [{
+				id: "0215A454FE256375"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12AD37344F9AF0C6"]
+			description: [
+				"You may have noticed that under each food, it has a \"Food Diversity\" value. This number indicates how complex the food is! Eating new, varied foods results in some minor stat boosts that are permanant! "
+				""
+				"This book will help you keep track of what you have and havent eaten yet!"
+			]
+			id: "6B0C0CA231ACF10C"
+			subtitle: "Spice of Life!"
+			tasks: [{
+				id: "7B9FFB632E1BBAC2"
+				item: "solapplepie:food_book"
+				type: "item"
+			}]
+			title: "Apple Pie Edition"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12AD37344F9AF0C6"]
+			description: [
+				"If you havent noticed, prepared food doesnt stack. This is on purpose!"
+				"Craft yourself a lunchbag, its like a backpack for your food!"
+				""
+				"&6Shift + Right Click&r : Open the lunchbag"
+				"&6Right Click&r : Eat an item from the lunchbag!"
+				""
+				"(It will automatically select the most viable food in it, you dont have to take it out and eat it!)"
+			]
+			id: "154D22C7200D8BF1"
+			subtitle: "Stacks?"
+			tasks: [{
+				id: "79B3E11DA597B512"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solapplepie:lunchbag"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["154D22C7200D8BF1"]
+			id: "1F5EE311D93181CF"
+			subtitle: "Getting an upgrade"
+			tasks: [{
+				id: "6800C1241808CCBD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "solapplepie:lunchbox"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F5EE311D93181CF"]
+			id: "250D5F0A80EEA6CF"
+			subtitle: "Unlimited power! (of food)"
+			tasks: [{
+				id: "49DFAFFF5CDC1987"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 14
+						}
+					}
+					id: "solapplepie:golden_lunchbox"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+	]
+	title: "Food \\& Farming"
+}

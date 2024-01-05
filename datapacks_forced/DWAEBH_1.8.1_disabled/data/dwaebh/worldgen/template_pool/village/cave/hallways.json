@@ -1,0 +1,42 @@
+{
+  "name": "dwaebh:village/cave/hallways",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 24,
+      "element": {
+        "location": "dwaebh:village/cave/hallways/hallway_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "location": "dwaebh:village/cave/hallways/intersection_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "location": "dwaebh:village/cave/hallways/intersection_02",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/cave/hallways/stairs_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

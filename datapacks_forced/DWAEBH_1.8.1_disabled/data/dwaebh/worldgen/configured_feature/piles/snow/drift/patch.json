@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "vegetation_chance": 0.1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      }
+    },
+    "extra_edge_column_chance": 0.7,
+    "extra_bottom_block_chance": 0.8,
+    "vertical_range": 1,
+    "vegetation_feature": "dwaebh:piles/snow/drift/variation",
+    "surface": "floor",
+    "depth": 1,
+    "replaceable": "#minecraft:lush_ground_replaceable",
+    "ground_state": {
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:snow_block"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "Name": "minecraft:stone"
+          },
+          "weight": 1
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    }
+  }
+}

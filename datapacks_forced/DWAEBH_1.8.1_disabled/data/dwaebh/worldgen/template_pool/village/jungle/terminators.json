@@ -1,0 +1,51 @@
+{
+  "name": "dwaebh:village/jungle/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/jungle/terminators/terminator_01",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/jungle/terminators/terminator_02",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/jungle/terminators/terminator_03",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/jungle/terminators/terminator_04",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/jungle/terminators/terminator_05",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

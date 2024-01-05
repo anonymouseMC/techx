@@ -1,0 +1,10 @@
+{
+  "config": {
+    "features": [],
+    "default": {
+      "feature": "dwaebh:vegetation/plants/dripleaf_patch_pool",
+      "placement": []
+    }
+  },
+  "type": "minecraft:random_selector"
+}

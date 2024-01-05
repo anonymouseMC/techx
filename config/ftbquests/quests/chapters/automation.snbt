@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automation"
+	group: "7919D056D869FB4C"
+	icon: "create:large_cogwheel"
+	id: "60B0B2C193476741"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"If you already know what you are doing, and have played create, IE, mekanism, and AE in isolation you can probably ignore everything in this section of the quest book."
+				""
+				"Once unlocking machines new quests will appear here detailing on how you can use them to turn nothing into something."
+				""
+				"&oNote: If you arent a \"follow the guide to the letter\" person, id stop reading right here!&r"
+			]
+			id: "637CF747BE540D76"
+			tasks: [{
+				id: "051B22CEED3A5F84"
+				title: "Cool!"
+				type: "checkmark"
+			}]
+			title: "Help!"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A20FABA5877926D"
+				"637CF747BE540D76"
+			]
+			description: [
+				"Using some of the components you have unlocked thus-far, the first &obeneficial&r machine can be pieced together!"
+				""
+				"{image:kubejs:textures/quest/saw.png width:180 height:110 align:1 fit:true}"
+				""
+				"The lever on the right side will enable/disable the machine! Any saplings that grow will be broken!"
+			]
+			icon: "minecraft:oak_sapling"
+			id: "413D60545529CDA2"
+			subtitle: "Flat-Packed for convenience!"
+			tasks: [
+				{
+					id: "5A56A15B61DF0F1A"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "3CA9CD45B35D1F89"
+					item: "create:sticky_mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "6C20861FCC33503B"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "34B71DAD11B62B6F"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1D826DC0F0D7753F"
+					item: "create:redstone_contact"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "64C559F1F7CA477A"
+					item: "minecraft:repeater"
+					type: "item"
+				}
+				{
+					id: "25AD700D95A16DB8"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "20FBDE7ADFDDF37E"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+				{
+					id: "7294A4A0456B8D44"
+					item: "create:gearshift"
+					type: "item"
+				}
+				{
+					id: "3D47AFD2DADBBB50"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			title: "The Almost-Automatic Tree Farm"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"637CF747BE540D76"
+				"1406C364A7482A75"
+			]
+			description: [
+				"Note: you *really* should add more than 4 drills! The machine only needs to have four so it can dig a tunnel big enough for itself. Glue more drills to the sides! Go crazy!"
+				"{image:kubejs:textures/quest/drill.png width:960 height:540 align:1 fit:true}"
+				"&7Note: The whole thing is glued together, just be careful not to glue it to the floor!&r"
+			]
+			id: "3CAA9323AF008256"
+			tasks: [
+				{
+					count: 4L
+					id: "25AA5D602EA3873D"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "06B892D50399FDC5"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "48B4E61B5A5A3174"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "37F18B9F370871F4"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00A81EDDB58DC506"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1E2A278941441312"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "214DDB807BBFF6D0"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "0F2166012DE49D3B"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "6449B62E75222BE4"
+					item: "minecraft:furnace_minecart"
+					type: "item"
+				}
+			]
+			title: "An almost-automatic tunneling device"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"637CF747BE540D76"
+				"7C735071F64AE7B7"
+			]
+			description: ["{image:kubejs:textures/quest/harvester.png width:200 height:110 align:1 fit:true}"]
+			icon: "create:mechanical_harvester"
+			id: "47B87548C4A593E8"
+			tasks: [
+				{
+					count: 3L
+					id: "41B1738A6CDA19FC"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "72B5295805920070"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:trapdoors"
+						}
+					}
+					title: "Any #minecraft:trapdoors"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "067272E6E8CA338D"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "3B4E4AC9B2E0C6C0"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "785D19D44A475C8C"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "33AC04046659BA60"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "38627EA6ECA6CB88"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: "Automation"
+}

@@ -1,0 +1,150 @@
+{
+  "name": "dwaebh:village/swamp/streets",
+  "fallback": "dwaebh:village/swamp/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/corner_01",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/corner_02",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/corner_03",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/straight_01",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/straight_02",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/straight_03",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/straight_04",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/straight_05",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/straight_06",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/crossroad_01",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/crossroad_02",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/crossroad_03",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/crossroad_04",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/crossroad_05",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/crossroad_06",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "dwaebh:village/swamp/streets/turn_01",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

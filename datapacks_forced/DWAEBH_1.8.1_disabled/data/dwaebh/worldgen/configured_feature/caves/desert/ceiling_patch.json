@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "vegetation_chance": 0.1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 7,
+        "max_inclusive": 15
+      }
+    },
+    "extra_edge_column_chance": 0.3,
+    "extra_bottom_block_chance": 0,
+    "vertical_range": 5,
+    "vegetation_feature": "dwaebh:caves/desert/spikes",
+    "surface": "ceiling",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      }
+    },
+    "replaceable": "#minecraft:moss_replaceable",
+    "ground_state": {
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:sandstone"
+          },
+          "weight": 5
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    }
+  }
+}

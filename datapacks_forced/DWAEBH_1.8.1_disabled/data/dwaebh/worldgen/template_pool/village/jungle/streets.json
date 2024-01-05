@@ -1,0 +1,177 @@
+{
+  "name": "dwaebh:village/jungle/streets",
+  "fallback": "dwaebh:village/jungle/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/corner_01",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/corner_03",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/straight_02",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/straight_04",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/straight_05",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/straight_06",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/straight_08",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/straight_09",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/straight_10",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/straight_11",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/crossroad_02",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/crossroad_03",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/crossroad_04",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/crossroad_05",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/crossroad_06",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/crossroad_07",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/split_01",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/split_02",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "dwaebh:village/jungle/streets/turn_01",
+        "processors": "dwaebh:street_jungle",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

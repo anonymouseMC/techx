@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.015,
+        "feature": "dwaebh:vegetation/trees/fallen/oak/directions"
+      },
+      {
+        "chance": 0.015,
+        "feature": "dwaebh:vegetation/trees/fallen/birch/directions"
+      },
+      {
+        "feature": "minecraft:birch_bees_0002",
+        "chance": 0.2
+      },
+      {
+        "feature": "minecraft:fancy_oak_bees_0002",
+        "chance": 0.1
+      }
+    ],
+    "default": "minecraft:oak_bees_0002"
+  }
+}

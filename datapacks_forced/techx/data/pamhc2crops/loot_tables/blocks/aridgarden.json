@@ -1,0 +1,80 @@
+{
+	"type": "minecraft:block",
+	"pools": [{
+		"rolls": 2,
+		"name": "aridgarden0",
+		"functions": [{
+				"function": "minecraft:apply_bonus",
+				"enchantment": "minecraft:fortune",
+				"formula": "minecraft:uniform_bonus_count",
+				"parameters": {
+					"bonusMultiplier": 3
+				}
+			},
+			{
+				"function": "minecraft:explosion_decay"
+			}
+		],
+		"entries": [{
+				"type": "item",
+				"name": "pamhc2crops:agaveseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cactusfruitseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cassavaseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:chickpeaseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:lentilseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:sisalseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:wolfberryseeditem",
+				"weight": 1
+			},
+						{
+				"type": "item",
+				"name": "pamhc2crops:barrelcactusseeditem",
+				"weight": 1
+			},
+						{
+				"type": "item",
+				"name": "pamhc2crops:chiaseeditem",
+				"weight": 1
+			},
+						{
+				"type": "item",
+				"name": "pamhc2crops:nopalesseeditem",
+				"weight": 1
+			},
+						{
+				"type": "item",
+				"name": "pamhc2crops:yuccaseeditem",
+				"weight": 1
+			},
+						{
+				"type": "item",
+				"name": "pamhc2crops:papyrusseeditem",
+				"weight": 1
+			}
+		]
+	}]
+}

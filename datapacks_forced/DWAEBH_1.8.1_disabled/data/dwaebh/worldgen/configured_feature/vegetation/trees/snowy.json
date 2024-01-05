@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "dwaebh:vegetation/trees/snowy/pine_checked",
+        "chance": 0.33333334
+      },
+      {
+        "feature": "dwaebh:vegetation/trees/fallen/spruce/directions",
+        "chance": 0.15
+      }
+    ],
+    "default": "dwaebh:vegetation/trees/snowy/spruce_checked"
+  },
+  "type": "minecraft:random_selector"
+}

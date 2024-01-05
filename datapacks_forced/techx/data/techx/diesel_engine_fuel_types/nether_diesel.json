@@ -1,0 +1,20 @@
+{
+  "replace":true,
+  "fluid": "kubejs:nether_diesel",
+  "sound_speed": 0,
+  "normal": {
+    "speed": 128,
+    "strength": 4096,
+    "burn_rate": 4
+  },
+  "modular": {
+    "speed": 128,
+    "strength": 6144,
+    "burn_rate": 4
+  },
+  "huge": {
+    "speed": 128,
+    "strength": 8192,
+    "burn_rate": 4
+  }
+}

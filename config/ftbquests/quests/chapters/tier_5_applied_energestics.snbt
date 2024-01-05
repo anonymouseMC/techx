@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_5_applied_energestics"
+	group: "142E6238120445C3"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "ae2:controller"
+	id: "01E0F31AC75186EA"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["56486CD34A0486F6"]
+			id: "4AEEA0012F6C6F86"
+			tasks: [{
+				id: "58ADC88E15702C5B"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07F5BE72E0B0D247"]
+			id: "47117AD431C41833"
+			tasks: [{
+				id: "515C537F31DCA2F5"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56486CD34A0486F6"]
+			id: "7A7345FE73D7F322"
+			tasks: [{
+				id: "44ADECE0974D884A"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A7345FE73D7F322"]
+			id: "6638C2AE52037AD7"
+			tasks: [{
+				id: "7155D9CD93392E6F"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A7345FE73D7F322"]
+			id: "557D408904B5C680"
+			tasks: [{
+				id: "78E5AC21BB461BAE"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A7345FE73D7F322"]
+			id: "07F5BE72E0B0D247"
+			tasks: [{
+				id: "49512461CD95109B"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F150F68AFB34750"]
+			id: "5952D2F461F4F5ED"
+			tasks: [{
+				id: "5EB3CDD9655CDB64"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4AEEA0012F6C6F86"]
+			id: "2F150F68AFB34750"
+			tasks: [{
+				id: "3C91036662CA3090"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+	]
+	title: "&cTier 5&r: Applied Energestics"
+}

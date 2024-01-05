@@ -1,0 +1,516 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_3_petroleum__fuels"
+	group: "142E6238120445C3"
+	icon: "createdieselgenerators:crude_oil_bucket"
+	id: "3098832586F38F31"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3192319DB69EBC74"]
+			id: "4258843F21E4F65B"
+			size: 1.5d
+			tasks: [{
+				id: "7DC5388C487862E5"
+				item: "kubejs:industrial_engineering_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F0767319C8B00B5"]
+			id: "731F1430483676FC"
+			size: 1.5d
+			tasks: [{
+				id: "23797B55883DB46F"
+				item: "kubejs:reinforced_engineering_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4258843F21E4F65B"]
+			id: "292AADC358166DDE"
+			tasks: [{
+				id: "3E16145B61A31B48"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["731F1430483676FC"]
+			id: "7A829FD6F7A5BB38"
+			tasks: [{
+				id: "57BEE09132F47958"
+				item: "createdieselgenerators:pumpjack_bearing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["731F1430483676FC"]
+			id: "02FF648EB0985765"
+			tasks: [{
+				id: "53D1C62340D0EA06"
+				item: "createdieselgenerators:pumpjack_head"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["731F1430483676FC"]
+			id: "2C3EFDC254DF927E"
+			tasks: [{
+				id: "34477C7578050E1F"
+				item: "createdieselgenerators:pumpjack_crank"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A829FD6F7A5BB38"
+				"02FF648EB0985765"
+				"2C3EFDC254DF927E"
+				"448E3B9D71527277"
+			]
+			id: "260ECEAE07E0169D"
+			tasks: [{
+				id: "7A1F05F66A481B42"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4258843F21E4F65B"]
+			id: "448E3B9D71527277"
+			tasks: [{
+				id: "7E0275BB8A9DA2F1"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"260ECEAE07E0169D"
+				"292AADC358166DDE"
+			]
+			id: "276CAFD457D3BAB6"
+			tasks: [{
+				id: "59E65A256AC291D2"
+				item: "kubejs:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"260ECEAE07E0169D"
+				"292AADC358166DDE"
+			]
+			id: "324EC824BAC0E102"
+			tasks: [{
+				id: "1C85F79C338BE9A1"
+				item: "kubejs:light_oil_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"260ECEAE07E0169D"
+				"292AADC358166DDE"
+			]
+			id: "6277677F385FA391"
+			tasks: [{
+				id: "1017EBF9AFCF9FB7"
+				item: "kubejs:oil_sludge_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6277677F385FA391"]
+			id: "5B6B5C790BD6802A"
+			tasks: [{
+				id: "29A9D3F6C19F49FA"
+				item: "createdieselgenerators:asphalt_block"
+				type: "item"
+			}]
+			title: "All roads lead to Rome"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["65C1DD6931C9BC0C"]
+			id: "0217260B92A02F7D"
+			tasks: [
+				{
+					id: "77FEEB9DA60C5AE9"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "117FC3487E68249E"
+					item: "kubejs:netherite_wire"
+					type: "item"
+				}
+				{
+					id: "662B289DDA7F26E6"
+					item: "kubejs:netherite_plate"
+					type: "item"
+				}
+			]
+			title: "Netherite! At last!"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["324EC824BAC0E102"]
+			id: "31D7801C954A9DD5"
+			tasks: [{
+				id: "242729AF2A31A2FC"
+				item: "kubejs:gasoline_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["324EC824BAC0E102"]
+			id: "2F323B84053DD3C1"
+			tasks: [{
+				id: "65986D500A6A8E58"
+				item: "kubejs:diesel_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["276CAFD457D3BAB6"]
+			id: "492DEC6B846CEEA9"
+			tasks: [{
+				id: "0161A7E4DD57C6B7"
+				item: "kubejs:raw_fuel_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["276CAFD457D3BAB6"]
+			id: "54A1D7D5E0FBB698"
+			tasks: [{
+				id: "79A235A74CCF3E8B"
+				item: "kubejs:lubricant_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"31D7801C954A9DD5"
+				"2F323B84053DD3C1"
+			]
+			id: "4BE522597CD4E0B1"
+			tasks: [{
+				id: "04FFE1481426A1BC"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			title: "Serious Power"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54A1D7D5E0FBB698"]
+			id: "594A917E350E4406"
+			tasks: [{
+				id: "1C790D615B917778"
+				item: "kubejs:lubricant_item"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0EC3F6D845C6743F"
+				"4BE522597CD4E0B1"
+			]
+			id: "08A9E2951E8086AB"
+			tasks: [{
+				id: "0851CA1547466216"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6277677F385FA391"]
+			id: "4CA50DE2454B185D"
+			tasks: [{
+				id: "1740BF555915F14A"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["492DEC6B846CEEA9"]
+			id: "6FF7A74FE65A550C"
+			tasks: [{
+				id: "28DA130717386B2D"
+				item: "kubejs:nether_diesel_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6FF7A74FE65A550C"]
+			description: ["Blaze cake is equally efficient as feeding blaze burners the nether diesel directly, but its still here if some people want to use cake instead!"]
+			id: "7476D3D502B19321"
+			subtitle: "Slightly more complex"
+			tasks: [{
+				id: "642FF0BFEC4053E4"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4CA50DE2454B185D"
+				"6FF7A74FE65A550C"
+			]
+			id: "136FD1A0BF6D356E"
+			tasks: [{
+				id: "79683F3795B5614A"
+				item: "mekanism:dust_netherite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CA50DE2454B185D"]
+			id: "20EEA39B9D5928B9"
+			tasks: [{
+				id: "600AE6A011D68D50"
+				item: "kubejs:ceramic_crucible"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"20EEA39B9D5928B9"
+				"136FD1A0BF6D356E"
+			]
+			id: "4D1D0DDF84702114"
+			tasks: [{
+				id: "5B091041BA818EFD"
+				item: "kubejs:hot_liquid_netherite_crucible"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D1D0DDF84702114"]
+			description: [
+				"Liquid Netherite can be casted into disposable casts, then salvaged!"
+				""
+				"Theres no way you can handle this heat with your own hands, so the bottling machine can help!"
+			]
+			icon: "immersiveengineering:bottling_machine"
+			id: "65C1DD6931C9BC0C"
+			subtitle: "Casting!"
+			tasks: [
+				{
+					count: 3L
+					id: "062F9EED0933FC4A"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B392287A3A33880"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					id: "7034D6B3CA3AAB25"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "538845CC23614F29"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "448450399F5CFEBF"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					id: "0F6880CDB9F86C53"
+					item: "immersiveengineering:fluid_pump"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2B3482B0D7AC0F01"
+				"08A9E2951E8086AB"
+			]
+			id: "41EA1E35445A698B"
+			tasks: [{
+				id: "4192718F90BCA5FF"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"594A917E350E4406"
+				"0217260B92A02F7D"
+			]
+			id: "73389DB38ABD6DAB"
+			tasks: [{
+				id: "079B48436178BCA4"
+				item: "kubejs:heat_resistant_mechanical_component"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["594A917E350E4406"]
+			id: "42365B8689E7ED0B"
+			tasks: [{
+				id: "23B2CF4868222012"
+				item: "kubejs:high_performance_electric_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["594A917E350E4406"]
+			id: "12418E2273D0EA20"
+			tasks: [{
+				id: "5193CE368801BE77"
+				item: "kubejs:hydraulic_mechanical_component"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"12418E2273D0EA20"
+				"73389DB38ABD6DAB"
+			]
+			id: "2B3482B0D7AC0F01"
+			tasks: [{
+				id: "1BE45873432767A8"
+				item: "kubejs:carburettor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["42365B8689E7ED0B"]
+			id: "0EC3F6D845C6743F"
+			tasks: [{
+				id: "7FDDD962B9BC0A54"
+				item: "kubejs:spark_plug"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0217260B92A02F7D"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44F4CBAE618577D6"
+			shape: "rsquare"
+			tasks: [{
+				id: "67C18A9175593B2C"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"0217260B92A02F7D"
+				"092E27BC5C78970D"
+			]
+			id: "376BA1583DC66E6E"
+			size: 1.5d
+			tasks: [{
+				id: "73EF9F0CA5F07670"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "Tier 4"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["41EA1E35445A698B"]
+			description: ["For Tier 4, Power is going to be instrumental, ensure you have enough!"]
+			id: "092E27BC5C78970D"
+			tasks: [{
+				id: "70277951E0CD4F33"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			title: "Sufficient Energy Grid"
+			x: -2.0d
+			y: 10.5d
+		}
+	]
+	title: "&dTier 3&r: Petroleum \\& Fuels"
+}

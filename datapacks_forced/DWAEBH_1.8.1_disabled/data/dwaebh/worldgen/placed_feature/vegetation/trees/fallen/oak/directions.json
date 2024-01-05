@@ -1,0 +1,23 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "feature": "dwaebh:vegetation/trees/fallen/oak/east",
+          "chance": 0.25
+        },
+        {
+          "feature": "dwaebh:vegetation/trees/fallen/oak/south",
+          "chance": 0.25
+        },
+        {
+          "feature": "dwaebh:vegetation/trees/fallen/oak/west",
+          "chance": 0.25
+        }
+      ],
+      "default": "dwaebh:vegetation/trees/fallen/oak/north"
+    }
+  },
+  "placement": []
+}

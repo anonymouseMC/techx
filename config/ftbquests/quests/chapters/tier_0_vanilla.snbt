@@ -1,0 +1,477 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_0_vanilla"
+	group: "142E6238120445C3"
+	icon: {
+		Count: 1b
+		id: "minecraft:stone_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "42AC1968A3F4A9ED"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &aX-Tech&r, A Modpack focused on longer-term progression and co-operative multiplayer."
+				""
+				"This is the quest book. It will help guide you from Tier 0 all the way up to building a technological empire in Tier 5."
+				""
+				"Your end goal is to beat the dragon, just like in vanilla minecraft. Except accessing the end will be much, much harder, and the fight is scaled up to the new end-game Mekanism armour. Diamond armour wont cut it!"
+				""
+				"Tier 0 is very small compared to the other tiers, I think we all know how to play minecraft."
+			]
+			icon: "biomesoplenty:origin_grass_block"
+			id: "3B40241611DEE2BC"
+			subtitle: "Create or Join a new world"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1B29354B7CFF2427"
+				type: "dimension"
+			}]
+			title: "The Beginning"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B40241611DEE2BC"]
+			disable_toast: true
+			id: "548503E3702E40E1"
+			subtitle: "I think we all know how this goes..."
+			tasks: [{
+				id: "0CF479A9A26008F6"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Workbench"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41484C11316EF377"]
+			id: "6B8D4EE22D1A02CF"
+			tasks: [{
+				id: "3D7B9C5F079B6229"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Gearing Up"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B8D4EE22D1A02CF"]
+			description: ["Most of the underground in this world is deepslate. The world extends down to -128."]
+			icon: "minecraft:deepslate"
+			id: "13F1C33E80722EED"
+			subtitle: "Reach below Y 0, and touch some deepslate"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "33D69B0C11A83FA9"
+				ignore_dimension: false
+				position: [I;
+					-999999
+					-128
+					-999999
+				]
+				size: [I;
+					1999998
+					128
+					1999998
+				]
+				type: "location"
+			}]
+			title: "The Depths"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E1E530683D5E97B"]
+			description: ["Zinc is the gateway ore to the Create mod. Collect as much zinc as you do iron, as its just as important!"]
+			id: "10AF963D8722F1A7"
+			shape: "rsquare"
+			subtitle: "Create and Kinetics"
+			tasks: [{
+				id: "7F4E2FCFA081167E"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			title: "Tier 1"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B8D4EE22D1A02CF"]
+			id: "1E1E530683D5E97B"
+			subtitle: "You're going to be crafting this a lot"
+			tasks: [{
+				id: "5E05F5112B51DCDE"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Accessorising: Mining"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B8D4EE22D1A02CF"]
+			id: "502DF0093D7C5030"
+			tasks: [{
+				id: "428EC29F7484FB31"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Accessorising: Axe"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B8D4EE22D1A02CF"]
+			id: "22D6114DC7AFFDE1"
+			tasks: [{
+				id: "43C098F09AE344B9"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Accessorising: Shovel"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B8D4EE22D1A02CF"]
+			id: "7E21BAB1A978D6A5"
+			tasks: [{
+				id: "710CB04107D09FB2"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Accessorising: Combat"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B8D4EE22D1A02CF"]
+			id: "0D2425D8940F34B7"
+			tasks: [{
+				id: "04CD4A21EF3F839B"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Accessorising: Farming"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"502DF0093D7C5030"
+				"22D6114DC7AFFDE1"
+			]
+			icon: "rechiseled_fans:fan_quad"
+			id: "49C970B380888E60"
+			shape: "rsquare"
+			subtitle: "Cutting Edge"
+			tasks: [{
+				id: "62AA2F25E7CBB252"
+				item: {
+					Count: 1b
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Sidequest: Decoration"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D2425D8940F34B7"]
+			description: [
+				"As you (may) have discovered, Vanilla foods are basically worthless."
+				"You cant live your life on just eating carrots and bread!"
+				""
+				"You will have to grow a wide variety of crops, and learn the most efficient food sources from said crops. As you progress through &aTier 1&r you will unlock new recipes allowing you to craft better foods and refine the processing of raw crops."
+			]
+			icon: "pamhc2foodextended:steakandchipsitem"
+			id: "2F9FD10952C94253"
+			shape: "rsquare"
+			subtitle: "Ingredients just dont cut it"
+			tasks: [{
+				id: "16AE947404EC871E"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "Sidequest: Food \\& Farming"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"658E803CDD8EAF31"
+				"13F1C33E80722EED"
+			]
+			id: "53E0C6916D3C42BA"
+			tasks: [{
+				id: "105AA7B98F42F0DE"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53E0C6916D3C42BA"]
+			icon: "minecraft:netherrack"
+			id: "5F5DF3809F8CE6E2"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "662BD7BA57811947"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5F5DF3809F8CE6E2"]
+			id: "1F6525B6280A48E2"
+			tasks: [{
+				id: "1C61B1626561CC0C"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Blazing Glory"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["247668013B342EDC"]
+			disable_toast: true
+			id: "658E803CDD8EAF31"
+			shape: "rsquare"
+			tasks: [{
+				id: "030CBDC34C555541"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 1: Diamond Pickaxe"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F6525B6280A48E2"]
+			description: [
+				"End Eyes are unable to be used in the portal frame!"
+				"You can use them to find the stronghold, although you should probably craft an explorers compass with them!"
+			]
+			id: "52298B758539B818"
+			subtitle: "Modded minecraft moment."
+			tasks: [{
+				id: "312997E2D31D4EFA"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "These things dont work?"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B8D4EE22D1A02CF"]
+			description: ["The progression quest tree can be used to track your progression through each mod in each tier. Its a summary page! Follow the tiered quest trees to figure out how to progress!"]
+			icon: "create:brass_ingot"
+			id: "0D2916EB437D58D7"
+			shape: "rsquare"
+			tasks: [{
+				id: "001680A0C9FB1125"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Chapter: Progression"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41484C11316EF377"]
+			id: "36274D6A1CD4773D"
+			subtitle: "Basic ores found above deepslate"
+			tasks: [
+				{
+					id: "18D16FF7B468988D"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "7AC643CF0EB085CD"
+					item: "mekanism:raw_tin"
+					type: "item"
+				}
+				{
+					id: "78A1FB483AE0AD96"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "22EB0C480DAE7621"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			title: "Basic Ores"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13F1C33E80722EED"]
+			id: "6E9641A15998637B"
+			subtitle: "Niche Ores found only in deepslate"
+			tasks: [
+				{
+					id: "6737893DE5740327"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "48DA5E4E89BB7989"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "3DC3B5EF960FC763"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "3CCAEF1E0B822666"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Deeper than Diamonds"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["548503E3702E40E1"]
+			id: "41484C11316EF377"
+			tasks: [{
+				block: "minecraft:stone"
+				block_type: 0
+				checkItem: false
+				id: "391DF8040CBC4F60"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "Stone Layer"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E21BAB1A978D6A5"]
+			id: "4D1F5C0D5A850D45"
+			tasks: [{
+				id: "7432E5C5709CC624"
+				item: {
+					Count: 1b
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E1E530683D5E97B"]
+			icon: {
+				Count: 1b
+				id: "mekanismtools:bronze_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77F8235F9C5CAD83"
+			subtitle: "Things are a bit different here"
+			tasks: [{
+				id: "45800BC3C4CF3270"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sidequest: Modded Combat \\& Tools"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B40241611DEE2BC"]
+			description: ["1. Nasty bug with JEI. Creative tabs fail to populate for an entire mod. I suspect some weird race condition. Reloading the game fixes this."]
+			id: "28D50E0DFDD2BF43"
+			subtitle: "A Known List!"
+			tasks: [{
+				id: "613BCA6B600EE48E"
+				title: "Bugs"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F5DF3809F8CE6E2"]
+			disable_toast: true
+			icon: "kubejs:nether_bauxite_ore"
+			id: "1563C02F4D2232C2"
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4A85A48CE1877853"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+	]
+	title: "&7Tier 0&r: Vanilla"
+}

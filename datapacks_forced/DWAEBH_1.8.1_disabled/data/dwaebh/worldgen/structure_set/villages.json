@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "dwaebh:villages/jungle",
+      "weight": 1
+    },
+    {
+      "structure": "dwaebh:villages/badlands",
+      "weight": 1
+    },
+    {
+      "structure": "dwaebh:villages/swamp",
+      "weight": 1
+    },
+    {
+      "structure": "dwaebh:villages/dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "dwaebh:campsite",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 10387312,
+    "spacing": 34,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

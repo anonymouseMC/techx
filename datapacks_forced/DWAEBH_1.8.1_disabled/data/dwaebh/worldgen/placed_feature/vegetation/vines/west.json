@@ -1,0 +1,89 @@
+{
+  "feature": {
+    "type": "minecraft:block_column",
+    "config": {
+      "direction": "down",
+      "allowed_placement": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      },
+      "prioritize_tip": true,
+      "layers": [
+        {
+          "height": {
+            "type": "minecraft:weighted_list",
+            "distribution": [
+              {
+                "weight": 5,
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 0,
+                    "max_inclusive": 1
+                  }
+                }
+              },
+              {
+                "weight": 3,
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 3
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 2,
+                    "max_inclusive": 4
+                  }
+                }
+              }
+            ]
+          },
+          "provider": {
+            "entries": [
+              {
+                "data": {
+                  "Properties": {
+                    "east": "false",
+                    "west": "true",
+                    "north": "false",
+                    "south": "false",
+                    "up": "false"
+                  },
+                  "Name": "minecraft:vine"
+                },
+                "weight": 5
+              }
+            ],
+            "type": "minecraft:weighted_state_provider"
+          }
+        },
+        {
+          "height": 1,
+          "provider": {
+            "state": {
+              "Properties": {
+                "east": "false",
+                "west": "true",
+                "north": "false",
+                "south": "false",
+                "up": "false"
+              },
+              "Name": "minecraft:vine"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        }
+      ]
+    }
+  },
+  "placement": []
+}

@@ -1,0 +1,109 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 2,
+            "name": "shadedgarden0",
+            "functions": [
+                {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                        "bonusMultiplier": 3
+                    }
+                },
+                {
+                    "function": "minecraft:explosion_decay"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:beanseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:blackberryseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:garlicseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:juteseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:leekseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:radishseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:rhubarbseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:scallionseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:spiceleafseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:sweetpotatoseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:tealeafseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:tomatoseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:turnipseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:whitemushroomseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:zucchiniseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:truffleseeditem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pamhc2crops:nettlesseeditem",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

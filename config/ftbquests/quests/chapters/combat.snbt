@@ -1,0 +1,618 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat"
+	group: "7919D056D869FB4C"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: {
+				Items: [ ]
+				Size: 2
+			}
+		}
+		id: "immersiveengineering:shield"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "41A243BFD51089E5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["77F8235F9C5CAD83"]
+			dependency_requirement: "one_completed"
+			id: "6519451A5E5CDD98"
+			subtitle: "You probably know where to find this"
+			tasks: [{
+				count: 3L
+				id: "30D49F66E35ADA35"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77F8235F9C5CAD83"]
+			description: ["Tin is found around the same levels of copper, and right now probably doesnt have many uses. Later on though tin will be a primary ingredient to many machines"]
+			id: "12B97866BA487C77"
+			subtitle: "Not to be confused with iron!"
+			tasks: [{
+				id: "0291FD2BC8087C02"
+				item: "mekanism:raw_tin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6519451A5E5CDD98"
+				"12B97866BA487C77"
+			]
+			description: [
+				"By squishing together &bCopper&r and &bTin&r in a 3:1 ratio, then smelting the clump in a furnace, you can get &eBronze&r."
+				""
+				"Bronze is slightly better than iron, with more durability and a slightly faster mining speed!"
+			]
+			id: "527AFE7A31FEA643"
+			tasks: [{
+				id: "0DE7F317970DB24A"
+				item: "kubejs:bronze_blend"
+				type: "item"
+			}]
+			title: "Mesopotamian Metallurgy"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["527AFE7A31FEA643"]
+			description: ["While iron may be more abundant and more convenient, &bBronze&r offers tools with a slightly faster breaking speed and higher durability."]
+			id: "0C86FAE7A3E18E34"
+			subtitle: "Only slightly better than Iron"
+			tasks: [{
+				id: "52A366F4218F3C81"
+				item: "mekanism:ingot_bronze"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C86FAE7A3E18E34"]
+			id: "5F66F16F6B3F4E1E"
+			tasks: [{
+				id: "61E31BA1DB23BE6C"
+				item: {
+					Count: 1b
+					id: "mekanismtools:bronze_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C86FAE7A3E18E34"]
+			id: "5E49BDF6B44E9ADA"
+			tasks: [{
+				id: "778CC787AB7D0C45"
+				item: {
+					Count: 1b
+					id: "mekanismtools:bronze_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C86FAE7A3E18E34"]
+			id: "60EE427F79513ABC"
+			tasks: [{
+				id: "414C45A2AD92F1FF"
+				item: {
+					Count: 1b
+					id: "mekanismtools:bronze_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C86FAE7A3E18E34"]
+			icon: {
+				Count: 1b
+				id: "mekanismtools:bronze_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3DCFAC39CC900241"
+			tasks: [
+				{
+					id: "19E94487E41B0689"
+					item: {
+						Count: 1b
+						id: "mekanismtools:bronze_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC0D33EAB1EACF7"
+					item: {
+						Count: 1b
+						id: "mekanismtools:bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03AE1091B4CFD57B"
+					item: {
+						Count: 1b
+						id: "mekanismtools:bronze_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27D6C0DAC90819BF"
+					item: {
+						Count: 1b
+						id: "mekanismtools:bronze_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bronze Armour"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C86FAE7A3E18E34"]
+			id: "1D122758042A3810"
+			tasks: [{
+				id: "3C6CC6F6BEAEA19F"
+				item: {
+					Count: 1b
+					id: "mekanismtools:bronze_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C86FAE7A3E18E34"]
+			id: "103199876F244E86"
+			tasks: [{
+				id: "72D8BF37CACE4A30"
+				item: {
+					Count: 1b
+					id: "mekanismtools:bronze_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "02C16FBB7329BD2A"
+			tasks: [{
+				disable_toast: true
+				id: "1F590F842E20B8AA"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02C16FBB7329BD2A"]
+			id: "197FBD53CACE7491"
+			tasks: [{
+				id: "29A829E56DA06C4E"
+				item: {
+					Count: 1b
+					id: "mekanismtools:steel_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02C16FBB7329BD2A"]
+			id: "0B95D16298EABA8B"
+			tasks: [{
+				id: "4576C0691676642D"
+				item: {
+					Count: 1b
+					id: "mekanismtools:steel_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02C16FBB7329BD2A"]
+			id: "0AA27CB587330424"
+			tasks: [{
+				id: "241C8E043BA54F31"
+				item: {
+					Count: 1b
+					id: "mekanismtools:steel_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02C16FBB7329BD2A"]
+			id: "57BA8A5DD0F7C723"
+			tasks: [{
+				id: "6EC5AEB5C62D1CD9"
+				item: {
+					Count: 1b
+					id: "mekanismtools:steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02C16FBB7329BD2A"]
+			id: "782F38E0EE78791A"
+			tasks: [{
+				id: "268CF7A58236E515"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "mekanismtools:steel_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["782F38E0EE78791A"]
+			id: "6E61EF32D8B24E34"
+			tasks: [{
+				id: "42CEC99CE18A5EEE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 2
+						}
+					}
+					id: "immersiveengineering:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Serious Protection"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02C16FBB7329BD2A"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "mekanismtools:steel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4FA0B005D009B11E"
+			tasks: [
+				{
+					id: "51306B5F42576D6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "mekanismtools:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08E36E6C5EC8E199"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "mekanismtools:steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C8D99150975C56E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "mekanismtools:steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55C87C8417054D84"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "mekanismtools:steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "7B4553FB4AA7F860"
+			tasks: [{
+				id: "404604B8DB3C179E"
+				item: "kubejs:hardened_steel_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["373B5F6CB8640720"]
+			id: "02566273323C00D9"
+			tasks: [{
+				id: "6D837865E7FF78ED"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			id: "373B5F6CB8640720"
+			tasks: [{
+				id: "38205A0A4BDF2E9C"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02566273323C00D9"]
+			id: "600779EEFA572AAD"
+			tasks: [{
+				id: "47EA91AC7ECFB966"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02566273323C00D9"]
+			id: "5D1DC60DA1FFEACF"
+			tasks: [{
+				id: "45F26958769CDFEF"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02566273323C00D9"]
+			id: "36F419AA4039F7CD"
+			tasks: [{
+				id: "20A6EE45E90F151D"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02566273323C00D9"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "365DF23374F2DDF9"
+			tasks: [
+				{
+					id: "784D934EACFC4C15"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23C0F10175040A7B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37E007DB944D7888"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D418E56DC8E610F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02566273323C00D9"]
+			id: "564A8E9A8540196C"
+			tasks: [{
+				id: "0E3450186A46906A"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+	]
+	title: "Combat \\& Tools"
+}

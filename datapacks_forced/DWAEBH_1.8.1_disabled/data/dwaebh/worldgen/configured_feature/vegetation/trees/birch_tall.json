@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.05,
+        "feature": "dwaebh:vegetation/trees/fallen/birch_tall/directions"
+      }
+    ],
+    "default": "dwaebh:vegetation/trees/birch/birch_tall"
+  }
+}

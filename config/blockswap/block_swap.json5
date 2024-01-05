@@ -1,0 +1,154 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+{
+	// Generates all block states for all blocks in the registry.
+	"generate_all_known_states": true,
+	// Whether blocks are replaced in existing chunks.
+	"retro_gen": true,
+
+	"state_swapper": [],
+	"swapper": {
+		/* remove all immersive engineering ores from the overworld */
+		"immersiveengineering:ore_aluminum":"minecraft:stone",
+		"immersiveengineering:ore_lead":    "minecraft:stone",
+		"immersiveengineering:ore_silver":  "minecraft:stone",
+		"immersiveengineering:ore_nickel":  "minecraft:stone",
+		"immersiveengineering:ore_uranium": "minecraft:stone",
+		"immersiveengineering:deepslate_ore_aluminum": "minecraft:deepslate",
+		"immersiveengineering:deepslate_ore_lead":     "minecraft:deepslate",
+		"immersiveengineering:deepslate_ore_silver":   "minecraft:deepslate",
+		"immersiveengineering:deepslate_ore_nickel":   "minecraft:deepslate",
+		"immersiveengineering:deepslate_ore_uranium":  "minecraft:deepslate",
+
+		/* remove all janoeo small ores */
+		/*"janoeo_foundation:tiny_coal_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_bauxite_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_copper_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_tin_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_iron_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_lead_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_nickel_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_silver_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_lapis_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_gold_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_uranium_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_diamond_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_emerald_ore":"minecraft:stone",
+		"janoeo_foundation:tiny_redstone_ore":"minecraft:stone",*/
+
+		/* remove all janoeo small deepslate ores */
+		/*"janoeo_foundation:deepslate_tiny_coal_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_bauxite_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_copper_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_tin_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_iron_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_lead_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_nickel_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_silver_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_lapis_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_gold_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_uranium_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_diamond_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_emerald_ore":"minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tiny_redstone_ore":"minecraft:cobbled_deepslate",*/
+
+		/* remove all janoeo gravel ores */
+		/*"janoeo_foundation:gravel_coal_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_bauxite_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_copper_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_tin_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_iron_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_lead_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_nickel_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_silver_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_lapis_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_gold_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_uranium_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_diamond_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_emerald_ore":"minecraft:gravel",
+		"janoeo_foundation:gravel_redstone_ore":"minecraft:gravel",*/
+
+		/* remove all janoeo overworld ores */
+		/*"janoeo_foundation:bauxite_ore": "minecraft:stone",
+		"janoeo_foundation:tin_ore":     "minecraft:stone",
+		"janoeo_foundation:lead_ore":    "minecraft:stone",
+		"janoeo_foundation:nickel_ore":  "minecraft:stone",
+		"janoeo_foundation:silver_ore":  "minecraft:stone",
+		"janoeo_foundation:uranium_ore": "minecraft:stone",
+
+		"janoeo_foundation:deepslate_bauxite_ore": "minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_tin_ore":     "minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_lead_ore":    "minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_nickel_ore":  "minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_silver_ore":  "minecraft:cobbled_deepslate",
+		"janoeo_foundation:deepslate_uranium_ore": "minecraft:cobbled_deepslate",*/
+
+		/*  remove janoeo overworld ores from nether
+			nether ores should be:
+				gold, netherite, quartz (vanilla)
+				bauxite, tin, lead, nickel, silver (for Tier 2 Immersive Engineering)
+		*/
+		/*"janoeo_foundation:nether_coal_ore":     "minecraft:netherrack",
+		"janoeo_foundation:nether_copper_ore":   "minecraft:netherrack",
+		"janoeo_foundation:nether_iron_ore":     "minecraft:netherrack",
+		"janoeo_foundation:nether_lapis_ore":    "minecraft:netherrack",
+		"janoeo_foundation:nether_diamond_ore":  "minecraft:netherrack",
+		"janoeo_foundation:nether_emerald_ore":  "minecraft:netherrack",
+		"janoeo_foundation:nether_redstone_ore": "minecraft:netherrack",
+		"janoeo_foundation:nether_uranium_ore":  "minecraft:netherrack",*/
+
+		/* replace janoeo ores with technology X ores in nether */
+		/*"janoeo_foundation:nether_tin_ore":"kubejs:nether_tin_ore",
+		"janoeo_foundation:nether_bauxite_ore":"kubejs:nether_bauxite_ore",
+		"janoeo_foundation:nether_lead_ore":"kubejs:nether_lead_ore",
+		"janoeo_foundation:nether_nickel_ore":"kubejs:nether_nickel_ore",
+		"janoeo_foundation:nether_silver_ore":"kubejs:nether_silver_ore",*/
+
+		/* replace deeperdarker vanilla ores with technology X ores in deeper dark */
+		"deeperdarker:gloomslate_iron_ore":"kubejs:gloomslate_osmium_ore",
+		"deeperdarker:sculk_stone_iron_ore":"kubejs:sculk_stone_osmium_ore",
+		"deeperdarker:gloomslate_coal_ore":"kubejs:gloomslate_osmium_ore",
+		"deeperdarker:sculk_stone_coal_ore":"kubejs:sculk_stone_osmium_ore",
+
+		"deeperdarker:gloomslate_copper_ore":"kubejs:gloomslate_lead_ore",
+		"deeperdarker:sculk_stone_copper_ore":"kubejs:sculk_stone_lead_ore",
+
+		"deeperdarker:gloomslate_gold_ore":"kubejs:gloomslate_tin_ore",
+		"deeperdarker:sculk_stone_gold_ore":"kubejs:sculk_stone_tin_ore",
+		"deeperdarker:gloomslate_redstone_ore":"kubejs:gloomslate_tin_ore",
+		"deeperdarker:sculk_stone_redstone_ore":"kubejs:sculk_stone_tin_ore",
+
+		"deeperdarker:gloomslate_emerald_ore":"kubejs:gloomslate_uranium_ore",
+		"deeperdarker:sculk_stone_emerald_ore":"kubejs:sculk_stone_uranium_ore",
+		"deeperdarker:gloomslate_diamond_ore":"kubejs:gloomslate_uranium_ore",
+		"deeperdarker:sculk_stone_diamond_ore":"kubejs:sculk_stone_uranium_ore",
+
+		"deeperdarker:gloomslate_lapis_ore":"kubejs:gloomslate_fluorite_ore",
+		"deeperdarker:sculk_stone_lapis_ore":"kubejs:sculk_stone_fluorite_ore",
+
+		/*  remove overworld & nether ores from the end
+			end ores should be:
+				uranium */
+		/*"janoeo_foundation:end_bauxite_ore": "minecraft:end_stone",
+		"janoeo_foundation:end_coal_ore":    "minecraft:end_stone",
+		"janoeo_foundation:end_copper_ore":  "minecraft:end_stone",
+		"janoeo_foundation:end_diamond_ore": "minecraft:end_stone",
+		"janoeo_foundation:end_emerald_ore": "minecraft:end_stone",
+		"janoeo_foundation:end_gold_ore":    "minecraft:end_stone",
+		"janoeo_foundation:end_iron_ore":    "minecraft:end_stone",
+		"janoeo_foundation:end_lapis_ore":   "minecraft:end_stone",
+		"janoeo_foundation:end_lead_ore":    "minecraft:end_stone",
+		"janoeo_foundation:end_nickel_ore":  "minecraft:end_stone",
+		"janoeo_foundation:end_redstone_ore":"minecraft:end_stone",
+		"janoeo_foundation:end_silver_ore":  "minecraft:end_stone",
+		"janoeo_foundation:end_tin_ore":     "minecraft:end_stone"*/
+
+	}
+}

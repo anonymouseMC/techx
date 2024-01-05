@@ -1,0 +1,20 @@
+{
+  "replace":true,
+  "fluid": "#forge:gasoline",
+  "sound_speed": 999,
+  "normal": {
+    "speed": 0,
+    "strength": 0,
+    "burn_rate": 0
+  },
+  "modular": {
+    "speed": 0,
+    "strength": 0,
+    "burn_rate": 0
+  },
+  "huge": {
+    "speed": 0,
+    "strength": 0,
+    "burn_rate": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "down",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air"
+      ]
+    },
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "weight": 5,
+              "data": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 2
+                }
+              }
+            }
+          ]
+        },
+        "provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:smooth_red_sandstone"
+              },
+              "weight": 5
+            },
+            {
+              "data": {
+                "Name": "minecraft:red_sandstone"
+              },
+              "weight": 5
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "state": {
+            "Properties": {
+              "east": "none",
+              "west": "none",
+              "north": "none",
+              "south": "none",
+              "up": "true",
+              "waterlogged": "false"
+            },
+            "Name": "minecraft:red_sandstone_wall"
+          },
+          "type": "minecraft:simple_state_provider"
+        }
+      }
+    ]
+  }
+}

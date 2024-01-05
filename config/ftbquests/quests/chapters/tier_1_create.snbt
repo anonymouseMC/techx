@@ -1,0 +1,2255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_1_create"
+	group: "142E6238120445C3"
+	icon: "create:wrench"
+	id: "7D01C57D67D4AECC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["10AF963D8722F1A7"]
+			description: ["In Create. Zinc is used to create &7Andesite Alloy&r. It will be used to create basic machines!"]
+			id: "2EB94039DF209791"
+			subtitle: "Gotta start somewhere..."
+			tasks: [{
+				id: "59ED7B1D4A72ECC5"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			title: "Azinchronous"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A27822D3FACEAEA"]
+			id: "59D18C777FEF5A85"
+			tasks: [{
+				id: "74397C19F09CB3D6"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Machinery 101: The Press"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4BCAD8854F609E8F"]
+			description: ["The mixer is used to automate shapeless recipes, and is also the \"primary crafter\" when it comes to cooking."]
+			icon: "create:mechanical_mixer"
+			id: "3F8D73C2AC763534"
+			subtitle: "Automating Shapelessly"
+			tasks: [
+				{
+					id: "6F377961A902DD45"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "414D8D4CED0E3ADA"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Machinery 102: The Mixer"
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4BCAD8854F609E8F"]
+			description: [
+				"The saw is used to more efficiently turn wood into planks. At a ratio of 1 log to 6 planks, its a 50% improvement!"
+				"You can also use it in stonecutting recipes, just set the filter!"
+			]
+			id: "799945A932BE8E4F"
+			tasks: [{
+				id: "5C1AE2F4065E4223"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Machinery 102: The Saw"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2EB94039DF209791"
+				"5058E8690B5545C8"
+			]
+			id: "080E51E310F1847A"
+			tasks: [{
+				id: "0B931BC5599F26DA"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Kinetics 101: The Belt"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4BCAD8854F609E8F"]
+			description: [
+				"The fan is a bit of a complex one. You can use it to move items around on the ground."
+				""
+				"However, if you place fluid/fire infront of the fan, itll unlock its crafting ability!"
+				""
+				"The fan has a few modes of operation:"
+				""
+				"&cBlasting&r - Emulating a Blast Furnace."
+				""
+				"&8Smoking&r - Emulating a Smoker."
+				""
+				"&9Washing&r - Emulating throwing/placing something in water."
+				""
+				"&bHaunting&r - A new type of crafting utilising soul fire, for item transmutation!"
+			]
+			id: "58D0E3EADC61B8B1"
+			tasks: [{
+				id: "074996F4D9F44FD2"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Machinery 102: The Fan"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F3C6B53BD7B5090"]
+			icon: "minecraft:kelp"
+			id: "5058E8690B5545C8"
+			shape: "rsquare"
+			subtitle: "Getting this is going to be awkward."
+			tasks: [
+				{
+					id: "167F8961A1C2F9F0"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "2C5F28CB9FFA223A"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+			]
+			title: "Help! Kelp!"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["567A66569D071620"]
+			description: ["Andesite Casing is created by right clicking a stripped log with a piece of andesite alloy, its used to craft all of the primordial create machines. You can also \"encase\" components such as gears and belts!"]
+			id: "4A27822D3FACEAEA"
+			subtitle: "The first casing"
+			tasks: [{
+				id: "32B312E0349985D9"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2EB94039DF209791"
+				"248E5E47F097CEC9"
+			]
+			description: [
+				"Andesite Alloy is a mixture of (you guessed it) Andesite and Zinc."
+				""
+				"You are going to be making a decent amount of this, so note that when you look up the recipe in JEI, that the mixing recipe gives you twice the amount of zinc for the same amount of ingredients! &oEfficiency is everything!&r"
+			]
+			id: "567A66569D071620"
+			subtitle: "The first of many."
+			tasks: [{
+				id: "59EC14E0DA251468"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["391DF8040CBC4F60"]
+			description: ["If you find a vein of andesite, you should probably remember where it is."]
+			id: "248E5E47F097CEC9"
+			subtitle: "Its andesite."
+			tasks: [{
+				id: "5965304F7A4DD2C6"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Andesite"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["567A66569D071620"]
+			description: [
+				"In Create, Shafts are used to transfer &oKinetic Energy&r. Which is just movement but rotational."
+				""
+				"Create has built in tutorials, called &o&ePonders&r, Hold &d[W]&r on an item for a visual tutorial on its uses!"
+			]
+			id: "1C8D98C59FF54594"
+			subtitle: ":O"
+			tasks: [{
+				id: "0EC014C621618CE8"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Shifty"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C8D98C59FF54594"]
+			description: ["The Gearbox functions like a set of interconnected large gears, Check the ponder!"]
+			id: "53A99D56E1033649"
+			subtitle: "Its like a box of gears!"
+			tasks: [{
+				id: "49A4192F0F72B3E8"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			title: "Kinetics 101: The Gearbox"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C8D98C59FF54594"]
+			description: [
+				"Chain gearshafts act like a belt in a box. A row of them will mirror rotation along the set."
+				"Check the ponder!"
+			]
+			id: "7E1C6FE25B8CFFE7"
+			subtitle: "Not very cogwheel-y"
+			tasks: [{
+				id: "0A9A506F08B87DEF"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			title: "Kinetics 101: The Chain Gearshaft"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FA6E22ED6BBD69C"]
+			description: [
+				"Once you have put together some iron plates, some new machines are unlocked."
+				""
+				"You may think that these machines add some needless \"complexity\" to otherwise vanilla recipes but remember: Machines are automatic, and machines may consume less ingredients for the same output!"
+			]
+			id: "4BCAD8854F609E8F"
+			subtitle: "Its a pressing matter..."
+			tasks: [{
+				id: "140D313F7352F7CC"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"59D18C777FEF5A85"
+				"52DBA3402B983793"
+				"0E4BFC10D5522380"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"With these components, you can begin to setup your first machine."
+				""
+				"Take some rotational energy from the water wheel, and step up its speed twice using the gears. Feed the faster-spinning shaft into the input of the press and place the depot below it."
+				""
+				"Congratulations! Its time to squish some iron!"
+			]
+			icon: "create:large_cogwheel"
+			id: "1FA6E22ED6BBD69C"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "2BEAC5463EA10F50"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Putting it all together"
+			tasks: [
+				{
+					disable_toast: true
+					id: "335EFFC350EFC0D3"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5FFF04ABF6FE2EC5"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "0876EC0BC6B937BD"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "63B71168AA0D1F46"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Machinery 101: Pressing the Press"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F8D73C2AC763534"]
+			description: [
+				"The Millstone is a very early crusher, you can use it to grind wheat into flour!"
+				""
+				"You can also use it to grind Calcite into Bonemeal, and Dripstone into Clay!"
+			]
+			id: "5DF56CBA6DC82C73"
+			shape: "rsquare"
+			tasks: [{
+				id: "2A80A148FEB04F91"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "102 Addendum: Dough!"
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1C8D98C59FF54594"]
+			description: [
+				"The gearshift will relay rotation from one input to the other, unless its powered!"
+				"When powered, it will instead invert the rotatiaon!"
+				""
+				"This can be useful for contraptions that move blocks (More on that later)"
+			]
+			id: "67BE9708D882B856"
+			subtitle: "Linear Inversion"
+			tasks: [{
+				id: "2D618B2B83B37FAF"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			title: "Kinetics 101: The Gearshift"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C8D98C59FF54594"]
+			description: [
+				"In create, power is generated and consumed by machines through &eStress Units&r (&eSU&r). Its generated by \"power sources\", and consumed by machines."
+				""
+				"The faster you spin a machines input, the more stress units it will consume, but in turn it will craft faster."
+				""
+				"Bigger and Better generators will become available to you as you progress!"
+			]
+			id: "5F72D62D8DE1DBB8"
+			subtitle: "The Nitty Gritty"
+			tasks: [{
+				id: "1D2C76C2A06A6A86"
+				type: "checkmark"
+			}]
+			title: "Generating Power"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FA6E22ED6BBD69C"]
+			description: ["Engineers goggles will allow you to see fine details about each mechanical part, including its rotation speed and stress generation/consumption"]
+			id: "219F621EF039F142"
+			subtitle: "More numbers!"
+			tasks: [{
+				id: "0AAB2EAA19B79F8B"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "Tinkerer"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F72D62D8DE1DBB8"]
+			description: [
+				"Windmills are a good option if you have found &eIndustrial Hemp&r seeds and started a farm. Alongside looking pretty, windmills are easily scaled by just adding more sails."
+				""
+				"Each sail on your windmill will add &e64 SU&r to the total amount generated. 16 Sails will generate &e1024 SU&r, which should be enough to get you started."
+				""
+				"&oNote: You only need to complete Windmills OR Water Wheels to progress!&r"
+			]
+			id: "0E4BFC10D5522380"
+			subtitle: "🜁"
+			tasks: [
+				{
+					id: "25058068D753AC48"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7B32252EA4D5CCEC"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Windmills"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F72D62D8DE1DBB8"]
+			description: [
+				"Water Wheels are a good option for descrete power, as they can be buried underground. They can be placed on their side too!"
+				""
+				"Large Wheels generate &e512 SU&r."
+				"Small Wheels generate &e256 SU&r"
+				""
+				"&oNote: You only need to complete Windmills OR Water Wheels to progress!&r"
+			]
+			id: "52DBA3402B983793"
+			subtitle: "🜄"
+			tasks: [{
+				id: "7B452FB32AAD02FE"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Water Wheel"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67BE9708D882B856"]
+			description: [
+				"When powered, the clutch disconnects its internal shaft."
+				""
+				"Useful for de-activating machines!"
+			]
+			id: "61D739C3DCFBA3CD"
+			subtitle: "Clutch or Kick"
+			tasks: [{
+				id: "0AB561C28C0C760D"
+				item: "create:clutch"
+				type: "item"
+			}]
+			title: "Kinetics 101: The Clutch"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E1C6FE25B8CFFE7"]
+			description: [
+				"The adjustable chain gearshift is complex. It functions like a big and small cog put together."
+				""
+				"Check the ponder!"
+			]
+			id: "5AA89C0E1B319097"
+			subtitle: "This is a bit complex"
+			tasks: [{
+				id: "71D7B405BF7502C7"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			title: "Kinetics 101: The Adjustable Chain Gearshift"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1C8D98C59FF54594"
+				"219F621EF039F142"
+			]
+			description: ["When the Tinkerers goggles are equipped, looking at the meters will give you detailed information about the connected system. Most importantly is the stressometer, which will tell you how much your &eSU&r capacity is saturated! (Network Load)"]
+			id: "3475AAECB10D746C"
+			subtitle: "More numbers!"
+			tasks: [
+				{
+					id: "4BD75294EE83CCAB"
+					item: "create:speedometer"
+					type: "item"
+				}
+				{
+					id: "36E5C32951422630"
+					item: "create:stressometer"
+					type: "item"
+				}
+			]
+			title: "Metres of Measure"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3475AAECB10D746C"
+				"5AA89C0E1B319097"
+				"080E51E310F1847A"
+				"7E1C6FE25B8CFFE7"
+				"61D739C3DCFBA3CD"
+				"53A99D56E1033649"
+				"67BE9708D882B856"
+			]
+			description: [
+				"The toolbox has 8 slots, but stores 4 stacks per slot! When broken, itll keep its contents too."
+				"If you press &d[T]&r, you can access the inventory of nearby toolboxes!"
+			]
+			id: "48BCF5120CDAAEE4"
+			subtitle: "Convenience!"
+			tasks: [{
+				id: "2F580631008C1C00"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			title: "Magnum Opus"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17FC4A30A35CE1DB"]
+			description: [
+				"The deployer is a new machine that operates like the players hand."
+				"While also being useful as a machine to craft, you can also use it to place blocks in the world!"
+			]
+			id: "018631121645C700"
+			subtitle: "Automating Player Interactions"
+			tasks: [{
+				id: "1BAD366FC0B45669"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Machinery 103: The Deployer"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D26DA9623AE2C01"]
+			description: ["The Harvester can be used to harvest crops. When placed on a rotating or moving machine, any crop blocks it passes over will be harvested and replanted!"]
+			id: "062BF4426EEE6C2A"
+			subtitle: "Automatic Farming!"
+			tasks: [{
+				id: "25BAAD2D8313FF12"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "Machinery 102: The Harvester"
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6146D9C561C7033E"
+				"7F8F48C768D2D532"
+				"48BCF5120CDAAEE4"
+			]
+			description: [
+				"&oNote: Pondering on super glue will probably explain it far better than this quest!&r"
+				""
+				"Super glue is used to glue sets of blocks together. When a force is applied on the blocks, they will all move as a group. Glue bounds can overlap, and will merge."
+				""
+				"Youre going to need this to create pretty much every moving contraption!"
+			]
+			id: "4AE8A3477E05505D"
+			subtitle: "Its about to get confusing"
+			tasks: [{
+				id: "5F8F23388077759D"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4BCAD8854F609E8F"]
+			description: ["Tubes are a bit like buckets, but for stuff you wouldnt want to expose to the air. However, they are consumed in recipes!"]
+			id: "6146D9C561C7033E"
+			subtitle: "Preparation"
+			tasks: [{
+				id: "23784B1F0BB912B9"
+				item: "kubejs:empty_tube"
+				type: "item"
+			}]
+			title: "Tubes"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FA6E22ED6BBD69C"]
+			description: ["Processing excess saplings results in &eSap&r, The sticky insides of a tree. It makes great glue!"]
+			id: "7F8F48C768D2D532"
+			subtitle: "Sticky"
+			tasks: [{
+				count: 8L
+				id: "3BE92BF3E42788E1"
+				item: "kubejs:sap"
+				type: "item"
+			}]
+			title: "Tree Sap"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3F8D73C2AC763534"
+				"1BA1B83C819D79C9"
+			]
+			description: [
+				"Honey has a variety of uses, and can be sucked out of beehives with fluid pipes!"
+				""
+				"Once you have setup a beehive, you can mix &eSap&r, &eHoney&r, and &9Water&r to make &dResin&r."
+				""
+				"&dResin&r is a &omuch&r more efficient way to make super glue. The recipe needs 8 times less sap!"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:beehive"
+				tag: {
+					BlockStateTag: {
+						honey_level: "5"
+					}
+				}
+			}
+			id: "289075C1CB158D7B"
+			subtitle: "bzzzzzzzzzzzzzzzzz"
+			tasks: [{
+				id: "7C2941F918855774"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4AE8A3477E05505D"]
+			description: [
+				"Providing similar functionality to a gantry, the mechanical piston functions pretty much exactly how you would expect it to!"
+				""
+				"Do note, you need to add piston shafts behind the mechanical piston!"
+			]
+			icon: "create:sticky_mechanical_piston"
+			id: "3B01B5A7DD9766D4"
+			subtitle: "Also Linear"
+			tasks: [
+				{
+					id: "658063B132F26365"
+					item: "create:sticky_mechanical_piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3D72803213C9D37F"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+			]
+			title: "Machinery 103: Piston 2.0"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4AE8A3477E05505D"]
+			description: [
+				"The bearing will rotate the assembly above it around itself."
+				"Great for compact farms!"
+			]
+			id: "0800C11335321F76"
+			subtitle: "Cyclic Motion"
+			tasks: [{
+				id: "1BB3A17566B51566"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Machinery 103: Bearing"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60B59B163F3CA91E"]
+			description: ["The rope pully is a great alternative to building a massive staircase down to -128!"]
+			id: "4E3F5416D9E22A60"
+			tasks: [{
+				id: "4B9D4E08ACB4D34C"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4AE8A3477E05505D"]
+			description: [
+				"Gantaries are a bit weird, but they still have many uses."
+				""
+				"Gantary Carridges will slide along a spinning gantary shaft. Once in a \"desired position\", the shaft can be powered with redstone to re-anchor the contraption and convey some rotational force!"
+			]
+			icon: "create:gantry_carriage"
+			id: "20BC9E36EA84A7D9"
+			subtitle: "Linear Motion"
+			tasks: [
+				{
+					id: "41421D7556E4E8EC"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2436149FEB24C3E6"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			title: "Machinery 103: Gantaries"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4AE8A3477E05505D"]
+			description: [
+				"The minecart mount will, when powered, attach the assembly above it to a cart passing under it (or, attach an assembly back to the world, if the cart has one already attached)."
+				""
+				"These are going to be &every&r useful soon, when mining can be automated!"
+			]
+			id: "4DEE546F3F1A4F1A"
+			subtitle: "Minecart Mounted Machines"
+			tasks: [{
+				id: "2458878C4CD18A37"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			title: "Machinery 103: Cart Assembler"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0800C11335321F76"
+				"20BC9E36EA84A7D9"
+				"4DEE546F3F1A4F1A"
+				"3B01B5A7DD9766D4"
+			]
+			dependency_requirement: "one_completed"
+			id: "60B59B163F3CA91E"
+			subtitle: "You only need one of them!"
+			tasks: [{
+				id: "51B0A1ACF8A214F2"
+				title: "I Understand!"
+				type: "checkmark"
+			}]
+			title: "Laws of Motion"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F8D73C2AC763534"]
+			description: [
+				"As you progress through the tiers, you are going to unlock recipes which may just seem like more complex versions of recipes you have unlocked earlier."
+				""
+				"Now you have crafted the mixer, youve unlocked your first &eRecipe Improvement&r!"
+				""
+				"If you look at the recipes for andesite alloy, you will notice that theres a recipe using the mixer! It uses half the ingredients for the same amount of alloy!"
+			]
+			id: "4FF8F3957BFBA7A0"
+			subtitle: "Efficiency is key!"
+			tasks: [{
+				count: 64L
+				id: "199B951AE48175A6"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "More Efficient Andesite Alloy"
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4FF8F3957BFBA7A0"]
+			description: [
+				"Two giant wheels of andesite alloy."
+				""
+				"When places adjacently, they will form the &eCrusher&r. A machine that can be used to squeeze extra levels out of raw ores."
+				""
+				"If you're lucky enough to have found a silk touch pickaxe, using ore blocks in the crusher will result in a fortune-like effect on the ores, if you dont mind the extra processing step!"
+			]
+			id: "5A955FA5EE746C03"
+			subtitle: "Heavy Duty"
+			tasks: [{
+				id: "0773AC516B3A1324"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5A955FA5EE746C03"]
+			id: "2F59450050075F47"
+			tasks: [{
+				id: "2FADD49A4486519E"
+				item: "create:crushed_raw_copper"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5A955FA5EE746C03"]
+			id: "4C198309BE47898E"
+			tasks: [{
+				id: "4D974E4556238352"
+				item: "create:crushed_raw_zinc"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"2F59450050075F47"
+				"4C198309BE47898E"
+			]
+			id: "46C16CD5F2538179"
+			tasks: [{
+				id: "2DB5B2003BF798A7"
+				item: "kubejs:brass_blend"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5A955FA5EE746C03"]
+			id: "68E1F132BE036928"
+			tasks: [{
+				id: "194BA422B0118C35"
+				item: "create:crushed_raw_tin"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"2F59450050075F47"
+				"68E1F132BE036928"
+			]
+			description: ["If youre annoyed by how inefficient it is to make bronze tools, worry no more, The mixer can do it better!"]
+			id: "725F56992C07DEE1"
+			subtitle: "Twice the yield!"
+			tasks: [{
+				id: "1837BC4C56B42751"
+				item: "kubejs:bronze_blend"
+				type: "item"
+			}]
+			title: "Better Bronze Blend"
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["46C16CD5F2538179"]
+			description: ["Brass is a new alloy with some impressive uses, Its the final alloy you will make in Tier 1!"]
+			id: "0D26DA9623AE2C01"
+			tasks: [{
+				id: "570C24AAFD94C976"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Brass! At last!"
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1FB6653A23DFAC04"]
+			description: [""]
+			id: "2863CDD0284DE02A"
+			subtitle: "Be-All End-All"
+			tasks: [{
+				id: "3C1D3E2EF865A926"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Pax Automana"
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0D26DA9623AE2C01"]
+			description: ["New alloy: New casing. Not much to be said except that it looks pretty cool"]
+			id: "17F1950FC145ACF4"
+			tasks: [{
+				id: "3B84A7BB4782B0F4"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["018631121645C700"]
+			description: ["The precision mechanism unlocks some very, very useful machines!"]
+			id: "539F5086F33667CD"
+			subtitle: "Watchmaking"
+			tasks: [{
+				id: "5DB4FDC00F4340C9"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0D26DA9623AE2C01"
+				"6BD415D08BA01BEB"
+			]
+			description: [
+				"A first for new players of Create, a &e&oSequenced Assembly&r is where you run an ingredient through a set of machines to obtain an output."
+				""
+				"Right now, we rapidly heat and cool the surface of a brass ingot to harden the outside, while keeping the core dense."
+			]
+			id: "1FB6653A23DFAC04"
+			subtitle: "A Song of Ice and Fire"
+			tasks: [{
+				id: "27AE18AC7B2F2C46"
+				item: "kubejs:hardened_brass"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["725F56992C07DEE1"]
+			description: [
+				"Pipes connect fluid containers."
+				"Pumps move fluids between containers."
+				"The world is a container of fluid."
+				""
+				"Got it?"
+				""
+				"&oYou should probably ponder on pipes...&r"
+			]
+			id: "667BCB386806AE38"
+			subtitle: "Ill keep this quick"
+			tasks: [{
+				id: "67D2751DA7583C00"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			title: "Lets talk fluids"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["667BCB386806AE38"]
+			description: ["Drains allow you to deposit fluid from buckets into their tank, which can be pumped from!"]
+			id: "7A5A024DE50710CC"
+			tasks: [{
+				id: "2E49F6F4EF5F0F79"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			title: "Bucket to Pipe"
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"667BCB386806AE38"
+				"53EF250A0202063C"
+			]
+			description: ["Spouts do the opposite of drains, they put fluid back into the world &oin a controlled fashion&r. They are one of the key crafting machines in create. Check their recipes!"]
+			id: "6BD415D08BA01BEB"
+			tasks: [{
+				id: "01AA82F349E62BBB"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Pipe to Item"
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["080E51E310F1847A"]
+			description: [
+				"The funnel functions almost exactly like a hopper, except it can be placed sideways."
+				"When connected to a belt, it will spit the contents of whatever its attached to onto the belt!"
+			]
+			id: "17AEA441A31895B1"
+			subtitle: "Probably the most useful thing so far."
+			tasks: [{
+				id: "387F971A041EABE1"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "Hopper 2.0"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17AEA441A31895B1"]
+			description: ["The tunnels are used to split stacks of items. Right now this probably isnt very useful until you get into some more advanced processes"]
+			id: "7679DF80F31F5467"
+			subtitle: "Factorio players will feel right at home"
+			tasks: [{
+				id: "777EBCAF08CC7590"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			title: "Balancing Act"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58D0E3EADC61B8B1"]
+			description: [
+				"Chutes function almost identically to hoppers, except only vertically."
+				"By building chutes on the sides of other chutes, a diagonal chain can be made."
+				""
+				""
+				"Where chutes really shine though is that they replace bubble columns for moving items!"
+				"By placing an &eEncased Fan&r at the base of a chute, itll blow items upwards."
+			]
+			id: "0B8C83CB9A442E1B"
+			subtitle: "Hopper 3.0?"
+			tasks: [{
+				id: "46C8213B61DC3CAB"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Utility 101: The chute"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["799945A932BE8E4F"]
+			description: ["Completing this quest will unlock a small tree in the &aAutomation&r section of the questbook, showing you how to make a prebuilt tree farm!"]
+			icon: "kubejs:wtf"
+			id: "6A20FABA5877926D"
+			tasks: [{
+				id: "3A330F75A803DEE6"
+				title: "Ok!"
+				type: "checkmark"
+			}]
+			title: "How the hell do I use this? (Saw)"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["667BCB386806AE38"]
+			id: "1BA1B83C819D79C9"
+			tasks: [{
+				id: "60ADE383001E2846"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["667BCB386806AE38"]
+			description: ["By connecting a pipe to a 2x2 pool of water, you pretty much get an infinite water supply!"]
+			icon: "minecraft:water_bucket"
+			id: "65FA05BF87F3DA21"
+			subtitle: "This doesnt really need to go in the tutorial section"
+			tasks: [
+				{
+					id: "4267E485D51FDEEF"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "6D7B97868C51641E"
+					title: "Okay!"
+					type: "checkmark"
+				}
+			]
+			title: "A note about infinite water"
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4BCAD8854F609E8F"]
+			description: [
+				"The wrench has a variety of uses for everything Create, but right now its most useful for the instant breaking of machine components."
+				""
+				"Go make one!"
+			]
+			id: "0BA78A5C56836E03"
+			subtitle: "The right tool for the job"
+			tasks: [{
+				id: "62641C6F5988DBAD"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D26DA9623AE2C01"]
+			description: ["With the advent of brass, you can now sort out items on conveyor belts! The tunnel has slots on the sides which allow filters or items to be inserted."]
+			id: "1566BB1A750CE368"
+			subtitle: "Factorio players rejoice!"
+			tasks: [{
+				id: "422E0725572A6708"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			title: "Tunnel 2.0"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0DD436A25FF07496"]
+			description: ["Using CGM, you can grow redstone dust into rose quartz!"]
+			id: "3B1BCF43D944C9CC"
+			subtitle: "Not so shiny"
+			tasks: [{
+				id: "351E38A58E77A582"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1566BB1A750CE368"]
+			description: ["Item Filters allow you to filter the filter slots on machines to any items they contain!"]
+			id: "134F6EF0AE039B4B"
+			subtitle: "Multiplexing"
+			tasks: [{
+				id: "441AB0490038557B"
+				item: "create:filter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"568319EFC58BCC02"
+				"2217F6668D565F7C"
+			]
+			description: ["The electron tube will open up many items not listed in the quest book, mostly redstone related!"]
+			id: "17FC4A30A35CE1DB"
+			subtitle: "Almost Modern!"
+			tasks: [{
+				id: "3DB29E0EB92349FB"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"3B1BCF43D944C9CC"
+				"2887D547E3DD1772"
+			]
+			id: "568319EFC58BCC02"
+			subtitle: "Shiny!"
+			tasks: [{
+				id: "48D5FCAA49B986C5"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["289075C1CB158D7B"]
+			description: [
+				"Crystal Growth Medium has a variety of uses. Right now you are going to want it to make some &eRose Quartz&r."
+				""
+				"&oNote: you only need 25mb of honey per batch of CGM!&r"
+				""
+				"Keep an eye on what you can use Crystal Growth Medium for, it can be used to automate a variety of resources!"
+			]
+			id: "0DD436A25FF07496"
+			subtitle: "Ooze"
+			tasks: [{
+				id: "6C338B17F24BC72C"
+				item: "kubejs:crystal_growth_medium_bucket"
+				type: "item"
+			}]
+			title: "Something from Nothing"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["289075C1CB158D7B"]
+			id: "52B0C24AD08499A2"
+			subtitle: "Synthetic Slime"
+			tasks: [{
+				id: "4DB5C35CE4F2F695"
+				item: "kubejs:resin"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["52B0C24AD08499A2"]
+			id: "2887D547E3DD1772"
+			subtitle: "Rough!"
+			tasks: [
+				{
+					id: "6FA24C893C66073A"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F103592E5D5FAF3"
+					item: {
+						Count: 1b
+						id: "create:red_sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["17F1950FC145ACF4"]
+			id: "2217F6668D565F7C"
+			tasks: [{
+				id: "0595EA47CED88067"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["60B59B163F3CA91E"]
+			id: "4BADFC2AF04DC325"
+			tasks: [{
+				id: "1731134E7A0533AB"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60B59B163F3CA91E"]
+			id: "4DEBEBAC5BAA82E7"
+			tasks: [{
+				id: "78024A3A66C9AF51"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60B59B163F3CA91E"]
+			id: "2A84E38E53AEDA64"
+			tasks: [{
+				id: "0EA09EE4776D48DB"
+				item: "createaddition:portable_energy_interface"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["539F5086F33667CD"]
+			id: "050A23678B673B37"
+			tasks: [{
+				id: "5A85B1537359266D"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["539F5086F33667CD"]
+			id: "085A7D634E7C21EE"
+			tasks: [{
+				id: "070E9CDE414C4DBA"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4DEBEBAC5BAA82E7"
+				"4BADFC2AF04DC325"
+				"76CCD376AA30EA75"
+				"3335C9B2FBBA3312"
+			]
+			icon: "create:controls"
+			id: "3811B809028F73E4"
+			tasks: [
+				{
+					id: "35CEB288DA715A9F"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "2D976388D9806EDE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:seats"
+						}
+					}
+					title: "Any #create:seats"
+					type: "item"
+				}
+				{
+					id: "4B131E528F5A2822"
+					item: "create:track_station"
+					type: "item"
+				}
+			]
+			title: "The first circuit"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["018631121645C700"]
+			id: "3335C9B2FBBA3312"
+			tasks: [{
+				id: "580DE862895B5A4C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "techx:is_gauge_standard"
+					}
+				}
+				title: "Any #techx:is_gauge_standard"
+				type: "item"
+			}]
+			title: "Railroad Industry"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3811B809028F73E4"]
+			icon: "create:track_signal"
+			id: "01A23B73F848D987"
+			tasks: [
+				{
+					id: "2C258F025FB12B35"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "5DB9C5CF749E988B"
+					item: "create:nixie_tube"
+					type: "item"
+				}
+			]
+			title: "The second circuit"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"018631121645C700"
+				"10A65E1A8A9E18F4"
+			]
+			description: ["Sturdy Sheets are the final complex element you should probably automate with create. Train-related recipes use them!"]
+			id: "76CCD376AA30EA75"
+			subtitle: "Proto-Refined Obsidian"
+			tasks: [{
+				id: "0415BEEA32F5F024"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01A23B73F848D987"]
+			description: [
+				"Once you have more than three trains running on &omost&r of the same circuit, you may run into the problem of &edeadlocks&r."
+				""
+				"A deadlock is where two trains counteract eachothers path, maybe facing head-to-head, or some complex where because of signaling they block eachother. Either way, its really bad."
+				""
+				"If you are observent, or have ever played factorio, you probably know that the solution is a  &eone-way system&r. Where wherever your tracks run, you have a left-hand or right-hand drive."
+				""
+				"This is a pretty hardcore solution, but the upside is never worrying about your trains getting stuck ever again!"
+				""
+				"&7(For the factorio players, wrenching a signal will turn it into a chain signal!)&r"
+				""
+				"{image:kubejs:textures/quest/intersection.png width:800 height:400 align:1 fit:true}"
+			]
+			id: "44EF1DA867463C97"
+			subtitle: "Hardcore"
+			tasks: [{
+				id: "152046C6476253F1"
+				title: "Industrialisation"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3811B809028F73E4"
+				"76CCD376AA30EA75"
+			]
+			icon: "create:schedule"
+			id: "6B9D1AC351BB6290"
+			tasks: [
+				{
+					id: "63665A4A9CA684BE"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "2EE9235E51850F13"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"539F5086F33667CD"
+				"76CCD376AA30EA75"
+				"6B9D1AC351BB6290"
+			]
+			id: "173E287A893973F2"
+			shape: "rsquare"
+			tasks: [{
+				id: "175D4F1D70575BE9"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The end of Tier 1"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D26DA9623AE2C01"]
+			description: [
+				"The brass funnel is identical in use-case to the andesite funnel, with two exceptions:"
+				""
+				"- It can move multiple &ostacks&r of items at one"
+				"- It can be filtered, to only move specific items"
+			]
+			id: "3ED9B95615A97268"
+			tasks: [{
+				id: "7A756CB8D8BC9C39"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2863CDD0284DE02A"]
+			description: ["Completing this quest will unlock a small tree in the &aAutomation&r section of the questbook, showing you how to make an (almost) prebuilt miner!"]
+			icon: "kubejs:wtf"
+			id: "1406C364A7482A75"
+			tasks: [{
+				id: "66605109A67010FD"
+				type: "checkmark"
+			}]
+			title: "How the hell do I use this? (Drill)"
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["062BF4426EEE6C2A"]
+			icon: "kubejs:wtf"
+			id: "7C735071F64AE7B7"
+			tasks: [{
+				id: "4EE25EC16C6C52BE"
+				type: "checkmark"
+			}]
+			title: "How the hell do I use this? (Harvester)"
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"65FA05BF87F3DA21"
+				"1BA1B83C819D79C9"
+			]
+			description: [
+				"By heating a tank of water with a steam engine attached, magic happens and stuff starts spinning."
+				""
+				"(You're going to want to build a 3x3x1 tank with a single engine for this to actually be useful)"
+				""
+				"Ill be honest, without the blaze burner, this thing is pretty shite."
+			]
+			icon: "create:steam_engine"
+			id: "641CB1CB76ECD411"
+			subtitle: "Turks did it 300 years before, to spin donner kebab"
+			tasks: [
+				{
+					id: "74352DFD169F7CA4"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "138F46EA647169D2"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "6423FDC54938EC0F"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "First Industrial Revolution"
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2863CDD0284DE02A"]
+			description: [
+				"But now its a requirement if you havent got some already."
+				"Go make a diamond pickaxe!"
+				""
+				"Having trouble with finding diamonds? Make a minecart contraption to dig for you! Check the tutorial quests if you cant figure it out!"
+			]
+			id: "247668013B342EDC"
+			subtitle: "You probably did this already."
+			tasks: [{
+				id: "10EA40B864DFD49D"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["247668013B342EDC"]
+			description: ["Note: Trains can go through nether portals, Just lay the track!"]
+			id: "10A65E1A8A9E18F4"
+			subtitle: "Preparing for the nether"
+			tasks: [{
+				count: 10L
+				id: "081E1F5E3D46D9AB"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["17FC4A30A35CE1DB"]
+			hide_dependency_lines: true
+			id: "0203717718DDD811"
+			tasks: [{
+				id: "6DF56FF31477423D"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Four Horsemen of the Electrocalypse"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["539F5086F33667CD"]
+			hide_dependency_lines: true
+			id: "10CF05911861FA01"
+			tasks: [{
+				id: "52E945B6F3ABBBBA"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Four Horsemen of the Electrocalypse"
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76CCD376AA30EA75"]
+			hide_dependency_lines: true
+			id: "04BBF455C0E50AF4"
+			tasks: [{
+				id: "7C8894BBEFCBE2F2"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "Four Horsemen of the Electrocalypse"
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FB6653A23DFAC04"]
+			hide_dependency_lines: true
+			id: "56C4B99CC11B9376"
+			tasks: [{
+				id: "77C55F275FE90E77"
+				item: "kubejs:hardened_brass"
+				type: "item"
+			}]
+			title: "Four Horsemen of the Electrocalypse"
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"56C4B99CC11B9376"
+				"0203717718DDD811"
+				"10CF05911861FA01"
+				"04BBF455C0E50AF4"
+			]
+			description: ["The rolling mill is the final create machine you will unlock. It squishes metal plates into rods, and rods into wire."]
+			id: "35B315A955C2AE40"
+			subtitle: "Its like the pressing machine, but rotary!"
+			tasks: [{
+				id: "25EFA6F821FD5737"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5AD63C23DE914CD0"
+				"6DC33A0E81D900D8"
+			]
+			id: "68697F546BDCFCA6"
+			subtitle: "Youre going to need this for Tier 2"
+			tasks: [{
+				id: "5F69DF7B925F2CDD"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			title: "Alternating Current"
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5AD63C23DE914CD0"
+				"4A9DEB7730D33843"
+			]
+			description: ["Note: The motor is 50% as efficient as the Alternator, dont connect a motor to an alternator!"]
+			id: "2AC361DA04321917"
+			tasks: [{
+				id: "4F8C3A6401375230"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			title: "Constant Rotation"
+			x: 13.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"35B315A955C2AE40"
+				"2ABBC1160EA0C621"
+			]
+			id: "6275AF9C0E77DBC2"
+			tasks: [{
+				id: "2AB4F048C082A2A7"
+				item: "immersiveengineering:wire_copper"
+				type: "item"
+			}]
+			title: "Venus"
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"35B315A955C2AE40"
+				"060E9C6A11F6EA3D"
+			]
+			id: "67C491B1DE139D4F"
+			tasks: [{
+				id: "30F1EDCD9F404B31"
+				item: "createaddition:gold_wire"
+				type: "item"
+			}]
+			title: "Solus"
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["35B315A955C2AE40"]
+			id: "62596BE77D17A67A"
+			tasks: [{
+				id: "402A85A465018846"
+				item: "createaddition:iron_wire"
+				type: "item"
+			}]
+			title: "Mars"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["62596BE77D17A67A"]
+			description: ["The Leyden jar was one of the first known capacitors. Its terrible. But its the only thing you can produce right now before you get into high-temparature ceramics."]
+			id: "5AD63C23DE914CD0"
+			subtitle: "Its pretty shoddy"
+			tasks: [{
+				id: "683BD9E7CF226F2F"
+				item: "kubejs:leyden_jar"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["67C491B1DE139D4F"]
+			id: "6DC33A0E81D900D8"
+			tasks: [{
+				id: "35FC2F9997CB6C32"
+				item: "createaddition:gold_spool"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6275AF9C0E77DBC2"]
+			id: "4A9DEB7730D33843"
+			tasks: [{
+				id: "00F5D04AE4CF8922"
+				item: "createaddition:copper_spool"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["060E9C6A11F6EA3D"]
+			description: ["The large connector, like the small connector, also can only transfer a measely 600rf/t. Still better than 200rf/t though!"]
+			id: "4AB82C3E0A93F252"
+			subtitle: "600rf/t"
+			tasks: [{
+				id: "6DB00304A4268429"
+				item: "createaddition:large_connector"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2ABBC1160EA0C621"]
+			description: ["The small connector is, well, small. It can only transfer a maximum of 200rf/t (Which sucks)"]
+			id: "2052C7CEC8745261"
+			subtitle: "200rf/t"
+			tasks: [{
+				id: "792F91E147D7F2B6"
+				item: "createaddition:connector"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["35B315A955C2AE40"]
+			id: "060E9C6A11F6EA3D"
+			tasks: [{
+				id: "425899F64A1F2B87"
+				item: "createaddition:gold_rod"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["35B315A955C2AE40"]
+			id: "2ABBC1160EA0C621"
+			tasks: [{
+				id: "7EAEFA40F6E88B96"
+				item: "createaddition:copper_rod"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"68697F546BDCFCA6"
+				"2AC361DA04321917"
+				"5AD63C23DE914CD0"
+			]
+			description: [
+				"Your first battery. You can conjoin these together in a cube to make a multiblock."
+				""
+				"It should be noted, that, these are the only batteries that can be moved as part of a contraption."
+				"No batteries you make in the future can be attached to contraptions."
+			]
+			id: "6C180DBB96480679"
+			tasks: [{
+				id: "254B6010837994AF"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["35B315A955C2AE40"]
+			description: [
+				"Energy, in real life, is a measure of Volts and Amps."
+				"This can get complicated, and you shouldnt need a degree in electrical engineering to play Minecraft, so things get simplified down to a single unit, known as a &cRedstone Flux&r."
+				""
+				"Machines make &credstone flux&r, Wires transmit it, and Machines consume it. It works a bit like the fluid pipes you know already, but without the transfer time."
+				""
+				"The most common \"Unit\" of &credstone flux&r over time is &eRF per &dtick&r, abbreviated as &6RF/&dt&r."
+				""
+				"If you dont know what a &dtick&r is, its how Minecraft measures time. Humans count in seconds, Minecraft counts in &dticks&r. Every second, there is 20 &dticks&r."
+				""
+				"So, if a machine is producing 10&6rf/t&r, its producing 200 &credstone flux&r per second"
+			]
+			icon: "kubejs:wtf"
+			id: "01C3A387E1AD0052"
+			subtitle: "What the hell is an RF?"
+			tasks: [{
+				id: "55EA35A51163E142"
+				title: "WTF?"
+				type: "checkmark"
+			}]
+			title: "Help!"
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0D26DA9623AE2C01"]
+			id: "200828CECD94DB13"
+			tasks: [{
+				id: "6A9BDE94793943CD"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["200828CECD94DB13"]
+			id: "53EF250A0202063C"
+			tasks: [{
+				id: "1D97851159E5734B"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["200828CECD94DB13"]
+			description: [
+				"Cleaned drinking water, while not as filling as juice, or any other food, is very cheap!"
+				""
+				"Each sand filter in a pipeline will clean the water by a single level!"
+			]
+			id: "4B1A0FC4B75424D4"
+			subtitle: "Clean Drinking Water!"
+			tasks: [{
+				id: "34A6ACAA44B9A524"
+				item: "thirst:sand_filter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"2EB94039DF209791"
+				"5058E8690B5545C8"
+				"248E5E47F097CEC9"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Theres a lot of new items, and even more new recipes. Googling the answer isnt going to work all the time, because this is a modpack."
+				""
+				"The solution? REI. You may have noticed the gigantic list of every item to the right of your inventory. You can use this to search up items!"
+				""
+				"Press &6[U]&r on any item to see how it can be used!"
+				"Press &6[R]&r on any item to see how it can be made!"
+				""
+				"This works on items in your inventory too."
+			]
+			id: "41DB5C54C2055A74"
+			subtitle: "Recipies galore."
+			tasks: [{
+				id: "6AEF43F9E526FC0A"
+				title: "NEI and its consequences."
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F8D232B37DB970F"]
+			id: "2748CC79FFDE9489"
+			tasks: [{
+				id: "2057B672B724CF7F"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["443A175B07362ABD"]
+			id: "31E1F906D5B7C334"
+			tasks: [{
+				id: "03B687B52F7C3E60"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3F8D232B37DB970F"]
+			id: "6E54CCBD65BBC1C1"
+			tasks: [{
+				id: "746AF2C12A138447"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["443A175B07362ABD"]
+			id: "69698409CD93E97F"
+			tasks: [{
+				id: "623720559619F78D"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3F8D232B37DB970F"]
+			id: "1773758412A76EEC"
+			tasks: [{
+				id: "73B36A335435704F"
+				item: "minecraft:dripstone_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3F8D232B37DB970F"]
+			id: "5B495C558BEDF66C"
+			tasks: [{
+				id: "499DD0E59D9BF3D4"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["443A175B07362ABD"]
+			id: "2DE7075791B594B9"
+			tasks: [{
+				id: "5548B83BDE537E8D"
+				item: "create:asurine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["443A175B07362ABD"]
+			id: "61B7E5345C31F411"
+			tasks: [{
+				id: "54406FEB6A8C6951"
+				item: "create:veridium"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3F8D232B37DB970F"]
+			id: "265D635C06DB88D7"
+			tasks: [{
+				id: "76EA5EEB29DE5C8D"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["5A955FA5EE746C03"]
+			description: ["These stones can be refined to exctract some extra crushed ores. Run them through the crushing wheel!"]
+			id: "3F8D232B37DB970F"
+			subtitle: "Somewhat useful"
+			tasks: [{
+				id: "490BE57DDDFA3F8E"
+				title: "Secondary Ore Processing"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5A955FA5EE746C03"]
+			description: ["These fellas can be refined for some not-so-useful stuff to have in bulk. Consider only if you really want to build a house out of lapis or something"]
+			id: "443A175B07362ABD"
+			subtitle: "Not so useful"
+			tasks: [{
+				id: "4B213F9C314F6054"
+				title: "Secondary Ore... Processing?"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["61B7E5345C31F411"]
+			id: "65F90FE9F2F4421C"
+			tasks: [{
+				id: "49817AFE8C80579E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["69698409CD93E97F"]
+			id: "598691B845CA7DB9"
+			tasks: [{
+				id: "65FF5FACC1BA8EA8"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["31E1F906D5B7C334"]
+			id: "41E6E2103926ADB8"
+			subtitle: "Smelts one item!"
+			tasks: [{
+				id: "1AD991E8C127FE81"
+				item: "mekanism:dust_coal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2DE7075791B594B9"]
+			id: "59A5392CD62AEC08"
+			tasks: [{
+				id: "7A5DD1DEF37AD3FB"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5B495C558BEDF66C"]
+			id: "7BCBCC3049104848"
+			tasks: [{
+				id: "7120858D68F41D8C"
+				item: "create:crushed_raw_zinc"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1773758412A76EEC"]
+			id: "2A1BAE9E70627B9D"
+			tasks: [{
+				id: "7BEE1F7498506150"
+				item: "create:crushed_raw_copper"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2748CC79FFDE9489"]
+			id: "7AFFC945F894A1B3"
+			tasks: [{
+				id: "30DA3FC798E721AF"
+				item: "create:crushed_raw_gold"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6E54CCBD65BBC1C1"]
+			id: "4323D66039D78448"
+			tasks: [{
+				id: "3FBC5AE484911FAB"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["265D635C06DB88D7"]
+			id: "5E773EC66DAF659C"
+			tasks: [{
+				id: "56A7E75B96431724"
+				item: "create:crushed_raw_tin"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"5E773EC66DAF659C"
+				"7BCBCC3049104848"
+				"2A1BAE9E70627B9D"
+				"4323D66039D78448"
+				"7AFFC945F894A1B3"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Much like alchemy, secondary ore refining is pretty much useless, but if you are someone who likes to be a perfectionist, the option is here"]
+			id: "7947C995B5964ED9"
+			subtitle: "Lead from gold (almost)"
+			tasks: [{
+				id: "0961C9327FA8075E"
+				title: "MORE byproducts!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"7947C995B5964ED9"
+				"7AFFC945F894A1B3"
+			]
+			id: "4C93BF2865F7BC0F"
+			tasks: [{
+				id: "1D83F3A8AF140923"
+				item: "create:zinc_nugget"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7947C995B5964ED9"
+				"4323D66039D78448"
+			]
+			id: "1A30F8CE7C00D88D"
+			tasks: [{
+				id: "12813640AED50584"
+				item: "mekanism:nugget_tin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7947C995B5964ED9"
+				"7BCBCC3049104848"
+			]
+			id: "0683FC72D1269FB9"
+			tasks: [{
+				id: "4DBFDBB99364E154"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7947C995B5964ED9"
+				"2A1BAE9E70627B9D"
+			]
+			id: "291AC54E883586AA"
+			tasks: [{
+				id: "399DABEE62A62ECE"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7947C995B5964ED9"
+				"5E773EC66DAF659C"
+			]
+			id: "20F38F5D97743D67"
+			tasks: [{
+				id: "7BFC8333BA74C9CD"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0D26DA9623AE2C01"]
+			description: [
+				"Run it. REI (for some reason) does not index any sequenced assembly event until you have run /reload, probably because it forces itself to re-index all its recipes."
+				""
+				"Caused (probably) because of a race condition between kubejs executing and building its json recipes, and REI loading the recipe list, which is why this issue is mostly random."
+				""
+				"&eRunning /reload will fix the issues. The recipes still work even if the command isnt run though. Its just the preview in REI thats broken.&r"
+				""
+				"Sorry to everyone who got stuck because of this. Have something as consolation"
+			]
+			id: "1EDCA1244A85507F"
+			rewards: [{
+				id: "778FFF963682B1DC"
+				item: "pamhc2foodextended:sundayhighteaitem"
+				type: "item"
+			}]
+			subtitle: "/reload"
+			tasks: [{
+				id: "6835F77E92676329"
+				title: "REI Bugs!"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 15.5d
+		}
+	]
+	title: "&aTier 1&r: Create"
+}

@@ -1,0 +1,105 @@
+{
+	"type": "minecraft:block",
+	"pools": [{
+		"rolls": 2,
+		"name": "tropicalgarden0",
+		"functions": [{
+				"function": "minecraft:apply_bonus",
+				"enchantment": "minecraft:fortune",
+				"formula": "minecraft:uniform_bonus_count",
+				"parameters": {
+					"bonusMultiplier": 3
+				}
+			},
+			{
+				"function": "minecraft:explosion_decay"
+			}
+		],
+		"entries": [{
+				"type": "item",
+				"name": "pamhc2crops:arrowrootseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cantaloupeseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:coffeebeanseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:eggplantseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:grapeseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:kenafseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:kiwiseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:pineappleseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:sesameseedsseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:soybeanseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:taroseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:gingerseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:sorghumseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:aloeseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:calabashseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:bokchoyseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:guaranaseeditem",
+				"weight": 1
+			}
+		]
+	}]
+}

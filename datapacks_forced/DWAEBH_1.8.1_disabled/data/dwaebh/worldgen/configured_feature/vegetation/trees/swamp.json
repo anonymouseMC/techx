@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "dwaebh:vegetation/trees/swamp/acacia_checked",
+    "features": [
+      {
+        "chance": 0.55,
+        "feature": "dwaebh:vegetation/trees/swamp/mangrove_checked"
+      },
+      {
+        "chance": 0.25,
+        "feature": "dwaebh:vegetation/trees/swamp/oak_checked"
+      }
+    ]
+  }
+}

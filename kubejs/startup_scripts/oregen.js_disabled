@@ -1,0 +1,49 @@
+// priority: 0
+
+// Visit the wiki for more info - https://kubejs.com/
+
+console.info('Hello, World! (Loaded startup scripts)')
+
+console.info('[TX] Removing Diamond Ore')
+
+WorldgenEvents.remove(function(e){
+	e.removeFeatureById("underground_ores", [
+		"minecraft:ore_diamond",
+		"minecraft:ore_diamond_large",
+		"minecraft:ore_diamond_buried"
+	]);
+});
+
+WorldgenEvents.add(function(e){
+
+	([
+		{id: "xt:diamond_ore", size:4, tries:7},
+		{id: "xt:diamond_ore_large", size:4, tries:7},
+		{id: "xt:diamond_ore_verylarge", size:4, chance:9}
+	]).forEach(function(xtOre){
+		e.addOre(function(ore){
+			ore.id = xtOre.id;
+			ore.biomes = {tag: "minecraft:is_overworld"};
+
+			ore.addTarget('#minecraft:stone_ore_replaceables',     'minecraft:diamond_ore');
+			ore.addTarget('#minecraft:deepslate_ore_replaceables', 'minecraft:deepslate_diamond_ore');
+
+			console.info(ore);
+
+			if(xtOre.tries){ // whole vein count per chunk
+				ore.count(xtOre.tries)
+					.squared()
+					.triangleHeight(
+						e.anchors.aboveBottom(0),
+						e.anchors.absolute(-10)
+					);
+			} else { // fractional tries
+				ore.chance = xtOre.chance;
+			}
+			ore.size = 4;
+			ore.noSurface = 0.5;
+			ore.worldgenLayer = 'underground_ores';
+		});
+	})
+
+});

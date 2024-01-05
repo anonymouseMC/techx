@@ -1,0 +1,27 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "feature": "dwaebh:vegetation/vines/east",
+          "chance": 0.2
+        },
+        {
+          "feature": "dwaebh:vegetation/vines/west",
+          "chance": 0.2
+        },
+        {
+          "feature": "dwaebh:vegetation/vines/north",
+          "chance": 0.2
+        },
+        {
+          "feature": "dwaebh:vegetation/vines/south",
+          "chance": 0.2
+        }
+      ],
+      "default": "dwaebh:vegetation/vines/up"
+    }
+  },
+  "placement": []
+}

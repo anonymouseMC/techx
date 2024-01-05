@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "dwaebh:village/campsite/bonfires",
+    "size": 6
+  },
+  "biomes": "#dwaebh:has_structure/village_campsite",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

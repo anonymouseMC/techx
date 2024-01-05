@@ -1,0 +1,65 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "east": "true",
+                "west": "false",
+                "north": "false",
+                "south": "false",
+                "up": "true"
+              },
+              "Name": "minecraft:vine"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "east": "false",
+                "west": "true",
+                "north": "false",
+                "south": "false",
+                "up": "true"
+              },
+              "Name": "minecraft:vine"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "east": "false",
+                "west": "false",
+                "north": "true",
+                "south": "false",
+                "up": "true"
+              },
+              "Name": "minecraft:vine"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "east": "false",
+                "west": "false",
+                "north": "false",
+                "south": "true",
+                "up": "true"
+              },
+              "Name": "minecraft:vine"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    }
+  },
+  "placement": []
+}

@@ -1,0 +1,42 @@
+{
+  "name": "dwaebh:village/swamp/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/swamp/terminators/terminator_01",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/swamp/terminators/terminator_02",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/swamp/terminators/terminator_03",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dwaebh:village/swamp/terminators/terminator_04",
+        "processors": "dwaebh:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

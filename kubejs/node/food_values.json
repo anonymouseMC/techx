@@ -1,0 +1,5222 @@
+{
+	"pamhc2foodextended:dateyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:caramelcupcakeitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blackberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolatecaramelfudgeitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chickennoodlesoupitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:swedishmeatballsitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peachjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:apricotjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gooseberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:papyrusseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:mulberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:lotusseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:groundnutmegitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:passionfruitpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:beef": {
+		"food": 3,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:mixedsaladitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:glowberryjellyitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:stuffingitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:limeyogurtitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:redvelvetcupcakeitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:honeyglazedcarrotsitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2crops:kohlrabiseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:arrowrootseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:alfalfaitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2crops:riceseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:peasitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:raspberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peachcobbleritem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:tropical_fish": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:grapefruitjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:misosoupitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sugarcookieitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:greengrapepieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2trees:maplesyrupitem": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:mincepieitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"minecraft:enchanted_golden_apple": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:strawberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pawpawjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tamarindyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:papayajellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bbqsauceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sourcreamandonionpotatochipsitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2crops:kiwiitem": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:pastaitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:biscuitsandgravyitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2trees:limeitem": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:elderberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:bakedjicamaitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:maplesyruppancakesitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:musubiitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:lettuceitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:bakedbeansitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mushroomketchupomeletitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cookingoilitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:raspberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2trees:peppercornitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"minecraft:cooked_salmon": {
+		"food": 6,
+		"sat": 0.8
+	},
+	"pamhc2foodextended:garlicchickenitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grandmasmacaronicasseroleitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:scallionbakedpotatoitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:leafychickensandwichitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2crops:cantaloupeseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:meringuebombeitem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2trees:roastedpinenutitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2crops:roastedleekitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:bananajellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:peanutitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:lambwithmintsauceitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:beansandriceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:kiwiyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:basicfishsandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:wintersquashseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:bamboosteamedriceitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:toastitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2trees:persimmonitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:spinachseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:gherkinitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rambutansmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pineapplepieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:butteredbakedpotatoitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:gingerseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:lemondrizzlecakeitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:fajitaburritoitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sweetpotatopieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:greengrapeseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:durianjellyitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cactusfruitjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:raspberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:springsaladitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:kiwipieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:leekbaconsoupitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolaterollitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rosepetalteaitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:brusselsproutseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:stuffedchilipeppersitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:elderberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:plumjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chickendinneritem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2crops:whitemushroomitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2crops:sunchokeseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:orangepieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:orangesmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:glowberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candleberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:hotchocolateitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:greengrapejellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:whitemushroomseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:salsaitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:strawberryrhubarbpieitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2crops:blackberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:grapefruitpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:guavajellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"minecraft:poisonous_potato": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2crops:rhubarbitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:soursopyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:porklomeinitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candiedsweetpotatoesitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"minecraft:glow_berries": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:guavasmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2trees:lemonitem": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:paneertikkamasalaitem": {
+		"food": 35,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:breakfastburritoitem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2crops:bakedsweetpotatoitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:elderberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hushpuppiesitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dragonfruitjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:loadedbakedpotatoitem": {
+		"food": 22,
+		"sat": 1.2
+	},
+	"pamhc2crops:milletseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:lycheejellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:delightedmealitem": {
+		"food": 32,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jackfruitpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mochiitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:zucchinibakeitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:potatoandleeksoupitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:wafflesitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:eggplantparmitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lycheeyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:garlicseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:rivermudcakeitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:theatreboxitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:surfandturfitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolatecakeitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:saltedcaramelitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:zucchiniitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:juniperberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:roastedrhubarbitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:garlicmashedpotatoesitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:figjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2trees:figitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:baconpancakesitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:pumpkinsoupitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantonesegreensitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blackberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2trees:dragonfruititem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:beancornmealitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:beanseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:chilipepperseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cheesedanishitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:crackeritem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:wontonsoupitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2crops:brusselsproutitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2trees:dateitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:cattailseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:plumjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2trees:bananaitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:eggplantseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:cattailitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:pawpawjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:melonjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bananasplititem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mulberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:basiccheeseburgeritem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:avocadoburritoitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:fiestacornsaladitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:oatsseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:peachjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:greenbeancasseroleitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:bakedwaterchestnutitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:lycheejellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:curryitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2crops:tomatoseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:turnipseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:vanillaitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:beetburgeritem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:loxbagelsandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pearjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mulberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cottagepieitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:eggrollitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:omeletitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:softpretzelitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:groundchickenitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:orangejuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:spinachitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:elderberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:greengrapeitem": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:nuttoppedicecreamitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:mustardseedsseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:starfruitsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:juniperberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherryyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tomatosoupitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chiliitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:creamedbroccolisoupitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cookiesandmilkitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherryjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rawtofickenitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:toadintheholeitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pawpawpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:lotusitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:cottoncandyitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"regions_unexplored:duskmelon_slice": {
+		"food": 5,
+		"sat": 1.1
+	},
+	"pamhc2crops:bellpepperitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:papayajellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapejellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:cantaloupeitem": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:ranchfriedchickenitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:meesuaitem": {
+		"food": 23,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:pumpkinbreaditem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rawtofuttonitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapeyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:duriansmoothieitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:creamitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:durianpieitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:sweetpotatoitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2crops:hotnettleteaitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:greengrapejellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gingeredrhubarbtartitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tamarindjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:agaveseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:chilipepperitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:peachjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gooseberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:truffleseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:grilledcheesevegemitetoastitem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:plumpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2trees:breadfruititem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:meatystirfryitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:ediblerootitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantaloupesmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cranberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:canolaitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:cheesesteakitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gyudonitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:glazedcarrotsitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:southernstylebreakfastitem": {
+		"food": 22,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:vindalooitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hoisinsauceitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2trees:guavaitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:friedeggitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2crops:scallionseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:cactusfruititem": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2crops:coffeebeanseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:figpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:durianyogurtitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:chickpeaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:gooseberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapejellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"minecraft:cod": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:pearsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:broccoliitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:avocadotoastitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:plumyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cactussoupitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:friedfeastitem": {
+		"food": 39,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:strawberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candiedwalnutsitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rambutanjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peanutbutterbananapancakesitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chickenparmasanitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tatertotsitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocolatesprinklecakeitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:zeppoleitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2trees:mangoitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:cranberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pecanpieitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jackfruitjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:batteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2crops:leekseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cherryjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:deviledeggitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:meringuecookieitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2crops:roastedpeanutitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:gingersnapsitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:elderberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cheesytacotortillachipsitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:battenbergitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:spicygreensitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2crops:juniperberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodcore:pickledbeetsitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:melonjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:friedchickenitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mulberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:fishdinneritem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:breadedporkchopitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"minecraft:cookie": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:vanillaconchasbreaditem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gourmetporkburgeritem": {
+		"food": 42,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pomegranatesmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jackfruitjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"minecraft:melon_slice": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:passionfruityogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:plumsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bakedcactusitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bananajellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocolatechippancakesitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:persimmonpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornmealitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:carrotcakeitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocolatecoconutbaritem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:sesameseedsseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:hazelnutchocolateitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lambbarleysoupitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sesameballitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dragonfruitjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2trees:coconutitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:strawberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:peasseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:chickenalfredoitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jambalayaitem": {
+		"food": 24,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:eggsbenedictitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"minecraft:cooked_porkchop": {
+		"food": 8,
+		"sat": 0.8
+	},
+	"supplementaries:soap": {
+		"food": 0,
+		"sat": 0.1
+	},
+	"pamhc2crops:sisalseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2trees:chestnutitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:macncheeseitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:guisoitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornchipsitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chickenjerkyitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:croissantitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mangojellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:cactusfruitseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:persimmonjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:starfruitjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cactusfruityogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:spaghettidinneritem": {
+		"food": 25,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chickencordonbleuitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:naanitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:rabbit": {
+		"food": 3,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:carrotcupcakeitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:powdereddonutitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gooseberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:sweetberryjellyitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peachpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:huckleberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:roastedmushroomitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:jackfruitjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:figsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:figjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:passionfruitjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"create:chocolate_glazed_berries": {
+		"food": 7,
+		"sat": 0.8
+	},
+	"pamhc2foodextended:greenteaitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:guavapieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:soybeanseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:toastedwesternitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dimsumitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:sweetberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:summersquashwithradishitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pineapplejellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2trees:oliveitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:starfruitjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sausagerollitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:quesadillaitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:cauliflowerseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:grapefruitjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:passionfruitjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2trees:rambutanitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:celeryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:papayapieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:apple": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:kaleitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:soursopjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cookoutmealitem": {
+		"food": 32,
+		"sat": 1.2
+	},
+	"pamhc2crops:roastedscallionitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cornishpastyitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:greengrapeyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:breadfruityogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2trees:cherryitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2trees:pawpawitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:limejuiceitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:juniperberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:groundporkitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:hotteaitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:peanutbuttercookiesitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candleberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:cranberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:sauerbratenitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:huckleberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:onionringsitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2crops:aloeitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:bolognasandwichitem": {
+		"food": 28,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:fishandchipsitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:eggtartitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"minecraft:cooked_beef": {
+		"food": 8,
+		"sat": 0.8
+	},
+	"pamhc2foodextended:durianjellytoastitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:jicamaitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:friesitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:bellpepperseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:meatloafsandwichitem": {
+		"food": 22,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherrycoconutchocolatebaritem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:cucumberseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:fruitcreamfestivalbreaditem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rambutanjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:limepieitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:greengrapesmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolatebaconitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candleberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jellyrollitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:mulberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"minecraft:beetroot": {
+		"food": 1,
+		"sat": 0.6
+	},
+	"pamhc2crops:blueberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:imitationcrabsticksitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:beefwellingtonitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:guavajellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:pumpkinyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bbqchickenpizzaitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bakedhamitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:roastedrootveggiemedleyitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"minecraft:cooked_cod": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:gooseberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:raspberrytrifleitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cranberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cevicheitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:basicchickensandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonjellytoastitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:nettlesitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:peachjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gritsitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:potatocakesitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:potroastitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bananapieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:truffleitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:mushroomrisottoitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2crops:strawberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:bbqpotatochipsitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"cold_sweat:soul_sprout": {
+		"food": 4,
+		"sat": 1.0
+	},
+	"pamhc2foodextended:buttertartitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantaloupejellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:coffeebeanitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:pomegranatejellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:nachoesitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2trees:hazelnutitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"minecraft:mutton": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:datesmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blueberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:figjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hotwingsitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapefruitsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:groundrabbititem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:supremepizzaitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bananajuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:soursopjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:breadfruitjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:parsnipitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2crops:alfalfaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodcore:pumpkincheesecakeitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:ovenroastedcaulifloweritem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:papayajellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:carrotsoupitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:saucedlambkebabitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:soursopsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:herbcheeseballitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:spagettiitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:banananutbreaditem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:meringuebrownieitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chickennuggetitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2crops:guaranaitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodcore:glowberrysmoothieitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:colasodaitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:pumpkinmuffinitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:breadfruitsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:soursopjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:kiwijellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:fishsticksitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:strawberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grilledskewersitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:nopalesseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:footlongitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candiedpecansitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:hotdogitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:porklettucewrapitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:datejuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:waterchestnutseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodcore:scrambledeggitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:huckleberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:meringueitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lasagnaitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rawtofabbititem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonjellysandwichitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rambutanjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonjuiceitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:datejellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sweetandsourmeatballsitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rambutanjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sweetandsourchickenitem": {
+		"food": 26,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pawpawjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocolatemilkshakeitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:kiwijellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:taiyakiitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:arrowrootitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:starfruitjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:orangeyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mintchocolatechipicecreamitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolatepuddingitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:gummybearsitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:jellydonutitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gardensoupitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:baconwrappedchiliitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gooseberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:cassavaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodcore:donutitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cranberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2trees:nutmegitem": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:pawpawjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:orangejellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:coffeeconlecheitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sausageitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:groundcinnamonitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:ricepuddingitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:poutineitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:juniperberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hamandpineapplepizzaitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cheeseontoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2trees:walnutitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2trees:avocadoitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:chickengumboitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapejellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:onigiriitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:enchiladaitem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tamarindjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:pumpkincupcakeitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pomegranatejuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantaloupejellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pizzasliceitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pepperstirfryitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:guacamoleitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:koreandinneritem": {
+		"food": 40,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cactusfruitsmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:glowberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:passionfruitjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mangoyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chilidogitem": {
+		"food": 27,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolatecupcakeitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:fruitcrumbleitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:chiaitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:passionfruitjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"minecraft:dried_kelp": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:huckleberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sausagebeanmeltitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2trees:apricotitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:bakedcassavaitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodcore:boiledeggitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2crops:rutabagaitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:meringuerouladeitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:veggiestripsitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"minecraft:sweet_berries": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:pumpkinoatsconesitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rambutanpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:scallionitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:durianjellysandwichitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:juniperberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pomegranateyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:batteredsausageitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:groundfishitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonjellyitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:poachedpearitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:friedonionsitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornedbeefitem": {
+		"food": 29,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:almondbutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:okrachipsitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chestnutbutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2crops:juteseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:rainbowcurryitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:sweetberrysmoothieitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:apricotjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:keylimepieitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2crops:kenafseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:lentilseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:cloudberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:kimchiitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pitepaltitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:applefritteritem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cookedtofaconitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:greengrapejuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:grilledcheeseitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:couscousitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:applejuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:applejellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bananajellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rawtofeakitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2trees:roastedpistachioitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:museliitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:mashedpotatoesitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chickenbiscuititem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2crops:raspberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:breadfruitjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:baklavaitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:lettuceseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:artichokeseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:kohlundpinkelitem": {
+		"food": 23,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chaiteaitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:onionhamburgeritem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantonesenoodlesitem": {
+		"food": 25,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:epicbltitem": {
+		"food": 23,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:friedriceitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pokebowlitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:deluxechickencurryitem": {
+		"food": 39,
+		"sat": 1.2
+	},
+	"pamhc2crops:bakedrutabagaitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:chocolatepeanutbaritem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lycheepieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pickledonionsitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:honeycombchocolatebaritem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:golden_carrot": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chimichangaitem": {
+		"food": 29,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mulberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherryicecreamitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"create:sweet_roll": {
+		"food": 6,
+		"sat": 0.8
+	},
+	"pamhc2foodcore:roastedsunflowerseedsitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:applejellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2crops:yuccaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:garlicsteakitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"supplementaries:candy": {
+		"food": 1,
+		"sat": 0.2
+	},
+	"pamhc2foodextended:paradiseburgeritem": {
+		"food": 26,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantaloupeyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:meatpieitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2crops:nettlesseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cookedtofickenitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:broccolimacitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:basichamburgeritem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2crops:grapeitem": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:anchovypepperonipizzaitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:honeybunitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:icecreamitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonsmoothieitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:roastchickenitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:vegemiteitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:baconandeggsitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cinnamonrollitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:beefjerkyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cheesecakeitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peanutbuttercupitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:friedgreentomatoesitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sorbetitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:kiwiseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2trees:durianitem": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:dragonfruitpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:stuffedeggplantitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mcpamitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:picklesitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:artichokeitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:merveilleuxitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapejuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:sweetberryjellytoastitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pearyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"minecraft:suspicious_stew": {
+		"food": 6,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cracklinsitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:fishjerkyitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rawtofaconitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:charsiuitem": {
+		"food": 30,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherryjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:strawberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blueberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:roastedkohlrabiitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:szechuaneggplantitem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2crops:barleyseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:nopalessaladitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:juniperberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocolateorangebiscuititem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:melonjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:persimmonyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:potatochipsitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:stewitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2trees:candlenutitem": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:sausageinbreaditem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:berryvinaigrettesaladitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sweetandsoursauceitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cucumbersandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:carrotbreaditem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:biscuititem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapefruitjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:maplesyrupwafflesitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gourmetbeefburgeritem": {
+		"food": 44,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mangojuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peachesandcreamoatmealitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:custarditem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:kiwijuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blackberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:deluxenachoesitem": {
+		"food": 30,
+		"sat": 1.2
+	},
+	"minecraft:porkchop": {
+		"food": 3,
+		"sat": 0.3
+	},
+	"pamhc2crops:bakedturnipitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cranberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:corndogitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pomegranatejellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:herbbutterparsnipsitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:noodlesoupitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tacoitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:popcornitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:spagettiandmeatballsitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pastagardeniaitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bltitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:maplesausageitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:pineappleseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:heartybreakfastitem": {
+		"food": 24,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherrysodaitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2trees:papayaitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:yogurtitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:p8juiceitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:applesmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pepperoniitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:muttonjerkyitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:melonjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherrysmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:sweetberryjuiceitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rootbeerfloatitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolatemuffinitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:elderberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tortillachipsitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candycornitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lavendershortbreaditem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:durianjuiceitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2crops:elderberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:mapleoatmealitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:cloudberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:strawberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:strawberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:yorkshirepuddingitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sunflowerbroccolisaladitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2trees:cinnamonitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:blackberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:seedsoupitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:jellybeansitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:broccoliseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:gingerchickenitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:asparagusseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:sweetberryjellysandwichitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:bakedtaroitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"minecraft:pufferfish": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:potstickersitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2crops:barrelcactusseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:sweetteaitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tortillaitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:timpanoitem": {
+		"food": 37,
+		"sat": 1.2
+	},
+	"pamhc2crops:eggplantitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"minecraft:spider_eye": {
+		"food": 2,
+		"sat": 0.8
+	},
+	"pamhc2foodextended:coleslawitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:turkishdelightitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bananayogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candleberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:papayayogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:cassavaitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:pralinesitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:briochebunitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mixedflowerssaladitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:toastsandwichitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tamarindpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:springrollitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2crops:roastedgarlicitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:lamingtonitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pineapplehamitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blueberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cheddarandsourcreampotatochipsitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mulberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:stockitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:amaranthseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:crackersandcheeseitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:groundmuttonitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chickenchowmeinitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2crops:bakedsunchokeitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"minecraft:potato": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:creamedcornitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chickenpotpieitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:springfieldcashewchickenitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sunflowerseedsbutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:limejellysandwichitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:fishtacoitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:misopasteitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:fruitpunchitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:apricotjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pearjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cookedgroundporkitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cinnamonbreaditem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chickenkatsuitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonaideitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dragonfruitsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:applecideritem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dragonfruitjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornedbeefbreakfastitem": {
+		"food": 44,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cheezepuffsitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:manjuuitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:guavajuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cranberrysauceitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sprinklescupcakeitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:berrymeringuenestitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sushiitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"minecraft:honey_bottle": {
+		"food": 6,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:cinnamonsugardonutitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lycheejellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2crops:papyrusitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2crops:caulifloweritem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:hotdishcasseroleitem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bangersandmashitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candleberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:orangejellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:damperitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jackfruityogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blueberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocolatecherryitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:marshmellowchicksitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rootbeersodaitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:caramelitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:spinachpieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:datejellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:omuriceitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2trees:pearitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:sunchokeitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:phoitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:creamofmushroomitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:honeysoyribsitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocolatestrawberryitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:braisedonionsitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tiropitaitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:kiwijellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:slawdogitem": {
+		"food": 24,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:caramelyogurtitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:groundbeefitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rouxitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:onionseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:beanburritoitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherrypieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:cooked_rabbit": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cashewchickenitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pineapplesmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"minecraft:baked_potato": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:blueberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:aloeseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:lycheejuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocovoxelsitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sesamesnapsitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hotandsoursoupitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:appleyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2trees:roastedacornitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:mochicakeitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hazelnutcoffeeitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:strawberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jackfruitjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mashedsweetpotatoesitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:calabashitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:starfruitpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blueberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:energydrinkitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:figbaritem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:tealeafitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:vanillaicecreamitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tamarindjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:orangesodaitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2trees:passionfruititem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:cactusfruitpieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mochidessertitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:chicken": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:fishcakesitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:chiaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:paneeritem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:blackberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cranberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2trees:vanillabeanitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:chorizoitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peasandceleryitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candiedgingeritem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:potatosoupitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:holidaycakeitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2trees:acornitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:crispyricepuffcerealitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:ploughmanslunchitem": {
+		"food": 31,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:friedpecanokraitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:garlicitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2trees:pomegranateitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:papayajuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:juniperberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:apricotpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jalapenoburgeritem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:oldworldveggiesoupitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hamandcheesesandwichitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bratwurstitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2crops:rutabagaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:papayasmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:orangegingerbeefitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:cornseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodcore:freshwateritem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:leekitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2crops:grapeseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:splitpeasoupitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mushroomlasagnaitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2trees:pecanitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:passionfruitsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cookedgroundrabbititem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:breadfruitpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bibimbapitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:steakandchipsitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dandelionteaitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:freshmilkitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"minecraft:cooked_mutton": {
+		"food": 6,
+		"sat": 0.8
+	},
+	"pamhc2foodextended:festivalbreaditem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:barrelcactusitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:grapepieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lambkebabitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:sunflowerseedsitem": {
+		"food": 1,
+		"sat": 1.2
+	},
+	"minecraft:beetroot_soup": {
+		"food": 6,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:shepardspieitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candiedlemonitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:juniperberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pinacoladaitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2trees:roastedchestnutitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2trees:jackfruititem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:kohlrabiitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:molasseschickenitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peanutbutterbananasandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mushroomsteakitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gooseberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:coleslawburgeritem": {
+		"food": 29,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:meatfeastpizzaitem": {
+		"food": 27,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:persimmonjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pineapplejellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:currypowderitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:californiarollitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:silkentofuitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapefruitjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapesmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:marzipanitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mangopieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pinkelitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:turnipitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:deluxecheeseburgeritem": {
+		"food": 24,
+		"sat": 1.2
+	},
+	"pamhc2crops:pineappleitem": {
+		"food": 2,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:cookedtofeakitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:ramenitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:greengrapejellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:honeylemonlambitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:baconmushroomburgeritem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gingersodaitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blackpepperitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:walnutraisinbreaditem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:caramelmuffinitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mushroomketchupitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2trees:soursopitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:maplecandiedbaconitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:radishitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2crops:candleberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:chickencurryitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"minecraft:chorus_fruit": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:cashewbutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantaloupejellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:limejellytoastitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:fruitsaladitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cookedtofabbititem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2trees:starfruititem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:chikorollitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tamarindsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:saltitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:friedbolognasandwichitem": {
+		"food": 23,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:salisburysteakitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:baconwrappeddatesitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:applejellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pawpawyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:parsnipseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:nopalesitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:pearpieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:golden_apple": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chilichocolateitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonchickenitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bakedalaskaitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:vegetarianlettucewrapitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:bakedarrowrootitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2crops:mustardseedsitem": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:guavayogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:caramelicecreamitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sundayroastitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peanutbutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:applesauceitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peachyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonyogurtitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:persimmonsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2trees:pinenutitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:cookedtofishitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:ricecakeitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:timtamitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:firmtofuitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gourmetbeefpattyitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mozzerellasticksitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:elderberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pawpawsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:crispyricepuffbarsitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:figyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dangoitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cinnamontoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:threebeansaladitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pambitsboxitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:driedsoupitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonmeringueitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:starfruitjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:imagawayakiitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bbqchickenbiscuititem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pineappleyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:baconcheeseburgeritem": {
+		"food": 25,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mangojellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:agaveitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:pumpkinspicelatteitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2crops:spiceleafitem": {
+		"food": 1,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:fishfingersandcustarditem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornedbeefhashitem": {
+		"food": 29,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:etonmessitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapefruityogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2trees:orangeitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:homestylelunchitem": {
+		"food": 23,
+		"sat": 1.2
+	},
+	"pamhc2crops:bokchoyseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:dragonfruityogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gravyitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hummusitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:soursopjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:earlgreyteaitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cherryjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:apricotjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chickenandwafflesitem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:applesnowitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:carrotjuiceitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:celeryandpeanutbutteritem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cookedgroundbeefitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:neapolitanicecreamitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:waterchestnutitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:garlicbreaditem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mangojellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peppermintitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mushroomoilitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candleberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornflakesitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gourmetmuttonpattyitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:fortunecookieitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:weekendpicnicitem": {
+		"food": 43,
+		"sat": 1.2
+	},
+	"minecraft:rotten_flesh": {
+		"food": 4,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:apricotyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:raspberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2trees:lycheeitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2trees:roastedalmonditem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:frenchtoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:carrotmuffinitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hamsweetpicklesandwichitem": {
+		"food": 22,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:broccolindipitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cactusfruitjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:oystersauceitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pancakesitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pineappleupsidedowncakeitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:succotashitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2trees:tamarinditem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:porkrindsitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:ryeseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"minecraft:salmon": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2trees:gooseberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:spicebunitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:zucchinifriesitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pistachiobutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:citrussaladitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:meatloafitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:orangechickenitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rawtofishitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolatedonutitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:groiledcheesesandwichitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:datejellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:fruitcakeitem": {
+		"food": 28,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonlimesodaitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:eggnogitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chickentendersitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:gingeritem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:blackberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cookedtofuttonitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:oatmealraisincookiesitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2crops:kaleseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:greeneggsandhamitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:schnitzelitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pearjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:asparagusitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:sorghumseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:strawberrysodaitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:peachsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:huckleberrypieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:cabbageitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:wolfberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodcore:cookedgroundfishitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:kalechipsitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:wintersquashitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodcore:cheeseitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:potatoskinsitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"create:bar_of_chocolate": {
+		"food": 6,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:blackberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2crops:tealeafseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:strawberrysouffleitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cookedgroundmuttonitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"minecraft:rabbit_stew": {
+		"food": 10,
+		"sat": 0.6
+	},
+	"pamhc2crops:huckleberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:eggsaladitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:candleberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:veggiestirfryitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:hashitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:brownieitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2trees:pistachioitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2crops:sesameseedsitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2crops:okraitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cornedbeefandcabbageitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:fivespiceitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:frosteddonutitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cocoapowderitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gourmetporkpattyitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolateicecreamitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pepperonipizzaitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:rambutanyogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bolognaitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2crops:rhubarbseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:pineapplejuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:taroitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:butteritem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:honeyglazedhamitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:elderberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2foodextended:breadfruitjellysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:sweetberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:trailmixitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:grapesodaitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:saladdressingitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cactusfruitjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"minecraft:carrot": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:raspberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:sweetpotatoseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:pemmicanitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:okracreoleitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:apricotsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:steaktartareitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2trees:grapefruititem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:mochaicecreamitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:persimmonjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2trees:roastedwalnutitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:chickencelerycasseroleitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chipsandsalsaitem": {
+		"food": 17,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:zestyzucchiniitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:huckleberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:applepieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pineapplejellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2crops:cottonseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2trees:cashewitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:soymilkitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2crops:hotcoffeeitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:mettbrotchenitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lemonpieitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:beansontoastitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolatebaritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:capresesaladitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mangosmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:vegetablesoupitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:cookedgroundchickenitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2trees:plumitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2crops:flaxseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:pizzasoupitem": {
+		"food": 20,
+		"sat": 1.2
+	},
+	"pamhc2crops:radishseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:creamofchickenitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:limesmoothieitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tomatoherbchickenitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2trees:roastedcashewitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:blackberryjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:tomatoitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:spicymustardporkitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sundayhighteaitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2crops:tomatilloitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:cabbageseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:stuffedmushroomitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:onionitem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:asparagusquicheitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:huckleberryitem": {
+		"food": 2,
+		"sat": 0.1
+	},
+	"pamhc2crops:roastedonionitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:raspberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:fishlettucewrapitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:breadfruitjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:cooked_chicken": {
+		"food": 6,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:bulgogiitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chocolateorangeitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:apricotglazedporkitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:cranberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:orangejellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:wolfberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:chickentendersmealitem": {
+		"food": 19,
+		"sat": 1.2
+	},
+	"pamhc2crops:roastedradishitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:haggisitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:tamarindjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornonthecobitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:raspberryjellyitem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chocolateyogurtitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"minecraft:bread": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:fairybreaditem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:leafyfishsandwichitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pomegranatepieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:garammasalaitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:mayonaiseitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mulberryjellysandwichitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cranberrysmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:bakedvegetablemedlyitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:saltandpepperitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2crops:taroseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:peanutchocolatebaritem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:tomatilloseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:sunflowerwheatrollsitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:epicbaconitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:figjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:quinoaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:peaandhamsoupitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:jackfruitsmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:marshmellowsitem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:glowberryjuiceitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:glowberryjellytoastitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:steakfajitaitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:vinegaritem": {
+		"food": 4,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bentoboxitem": {
+		"food": 31,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:potatosaladitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:kungpaochickenitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blackberrycobbleritem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chipsanddipitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sweetpotatosouffleitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cactusfruitjellytoastitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pecanbutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2crops:candleberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:cantaloupepieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:plumjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:roastpotatoesitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:stuffedpepperitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2crops:bokchoyitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:babaganoushitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sweetpickleitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2trees:peachitem": {
+		"food": 4,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:plumjellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:guavajellytoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:lycheesmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:vegemiteontoastitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mangochutneyitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mashedpotatoeschickenbiscuititem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:starfruityogurtitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bananasmoothieitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2crops:canolaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:celeryitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:calabashseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"create:honeyed_apple": {
+		"food": 8,
+		"sat": 0.8
+	},
+	"pamhc2foodextended:hazelnutbutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:liverandonionsitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:smoresitem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:soursoppieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"minecraft:pumpkin_pie": {
+		"food": 8,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:generaltsochickenitem": {
+		"food": 13,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornbreaditem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:creamofavocadosoupitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chilipoppersitem": {
+		"food": 12,
+		"sat": 1.2
+	},
+	"pamhc2crops:mulberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:potatoesobrienitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2trees:almonditem": {
+		"food": 1,
+		"sat": 0.3
+	},
+	"pamhc2foodcore:caramelappleitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:ceasarsaladitem": {
+		"food": 22,
+		"sat": 1.2
+	},
+	"pamhc2crops:jicamaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:limejellyitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2crops:blueberryseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"regions_unexplored:salmonberry": {
+		"food": 3,
+		"sat": 0.3
+	},
+	"pamhc2foodextended:grapefruitsodaitem": {
+		"food": 8,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pavlovaitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dhalitem": {
+		"food": 18,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:melonsmoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:teriyakichickenitem": {
+		"food": 15,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:porkjerkyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2trees:roastedhazelnutitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"regions_unexplored:hanging_earlight_fruit": {
+		"food": 6,
+		"sat": 0.4
+	},
+	"pamhc2foodextended:walnutbutteritem": {
+		"food": 2,
+		"sat": 1.2
+	},
+	"regions_unexplored:meadow_sage": {
+		"food": 2,
+		"sat": 0.15
+	},
+	"pamhc2foodextended:chocolatemilkitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:bakedparsnipitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:pomegranatejellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2crops:guaranaseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"minecraft:mushroom_stew": {
+		"food": 6,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:huckleberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:espressoitem": {
+		"food": 11,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bbqjackfruititem": {
+		"food": 10,
+		"sat": 1.2
+	},
+	"pamhc2crops:okraseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:peanutseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2crops:spiceleafseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:kiwismoothieitem": {
+		"food": 7,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pearjuiceitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:dragonfruitjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:potatoandcheesepirogiitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gourmetmuttonburgeritem": {
+		"food": 40,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:padthaiitem": {
+		"food": 16,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantaloupejuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:persimmonjellyitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:futomakiitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:honeysandwichitem": {
+		"food": 14,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cinnamonappleoatmealitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:suaderoitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:refriedbeansitem": {
+		"food": 6,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:blueberryjuiceitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2crops:cucumberitem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:datepieitem": {
+		"food": 9,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:raspberryyogurtitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2trees:roastedpecanitem": {
+		"food": 5,
+		"sat": 0.6
+	},
+	"pamhc2crops:zucchiniseeditem": {
+		"food": 3,
+		"sat": 0.6
+	},
+	"pamhc2foodextended:raisinsitem": {
+		"food": 3,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:rabbitjerkyitem": {
+		"food": 5,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:aebleskiversitem": {
+		"food": 10,
+		"sat": 1.2
+	}
+}

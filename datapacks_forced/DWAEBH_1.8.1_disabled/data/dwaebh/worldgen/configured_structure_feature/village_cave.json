@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "dwaebh:village/cave/entrances",
+    "size": 6
+  },
+  "biomes": "#dwaebh:has_structure/village_cave",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

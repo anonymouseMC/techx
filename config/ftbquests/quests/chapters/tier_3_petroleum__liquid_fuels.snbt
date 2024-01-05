@@ -1,0 +1,628 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_3_petroleum__liquid_fuels"
+	group: "142E6238120445C3"
+	icon: "create:brass_ingot"
+	id: "3F9790BAC4BC9818"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D2916EB437D58D7"]
+			description: ["The first ingot! You probably already know what this can be used for though."]
+			disable_toast: true
+			id: "0D8CADA88AADCEE7"
+			tasks: [{
+				id: "28BB4CA74A8AED4D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74F9C49693177DBC"]
+			id: "09D9C4B368154081"
+			tasks: [{
+				id: "102B9A1EF8259C6A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"252C8F86A49A96E1"
+				"74F9C49693177DBC"
+			]
+			id: "3B16705E6A2A5E36"
+			tasks: [{
+				id: "48863E6995862917"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3B16705E6A2A5E36"
+				"09D9C4B368154081"
+			]
+			id: "09775718908178BA"
+			tasks: [{
+				id: "1DDC7F250AD5EE08"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "The end of Tier 1!"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D8CADA88AADCEE7"]
+			id: "252C8F86A49A96E1"
+			tasks: [{
+				id: "5D0B0FA77CE8874E"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D8CADA88AADCEE7"]
+			id: "74F9C49693177DBC"
+			tasks: [{
+				id: "66B1D04749469380"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09775718908178BA"]
+			icon: "minecraft:obsidian"
+			id: "7FA02831C7B3D23B"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "52B487B81F6A7418"
+				type: "dimension"
+			}]
+			title: "The Nether!"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04F1C08CB4D0EBCB"]
+			id: "1D41C21EF38DE23A"
+			tasks: [{
+				id: "4462351019708589"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D8CADA88AADCEE7"]
+			id: "387619E2E3B03545"
+			tasks: [{
+				id: "612770D51ED5F66B"
+				item: "mekanism:ingot_tin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"387619E2E3B03545"
+				"252C8F86A49A96E1"
+			]
+			id: "649F10D6EFD87271"
+			tasks: [{
+				id: "0C137E82B101425E"
+				item: "mekanism:ingot_bronze"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09775718908178BA"]
+			id: "51364AD33D012972"
+			tasks: [{
+				id: "6B3EF9DD2765AFF8"
+				item: "immersiveengineering:ingot_constantan"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51364AD33D012972"]
+			id: "1409B806C25E65F9"
+			tasks: [{
+				id: "36B0F73FBA5E1BF1"
+				item: "immersiveengineering:ingot_electrum"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1409B806C25E65F9"]
+			id: "5EEA4F0382100EC0"
+			tasks: [{
+				id: "14CE589AA6B7BFEB"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["185BF7AF62834D57"]
+			id: "4599F0952967028B"
+			tasks: [{
+				id: "565506F1A3254D58"
+				item: "kubejs:hardened_steel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09775718908178BA"]
+			id: "185BF7AF62834D57"
+			tasks: [{
+				id: "511103F82CF85557"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1409B806C25E65F9"]
+			id: "3D8500E3E819AC5C"
+			tasks: [{
+				id: "61AED448A11E01DE"
+				item: "immersiveengineering:component_electronic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51364AD33D012972"]
+			id: "0AE3ED2E0333757E"
+			tasks: [{
+				id: "5D15B3B8EC6FA56B"
+				item: "immersiveengineering:electron_tube"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EEA4F0382100EC0"]
+			id: "73C716B5C1195D26"
+			tasks: [{
+				id: "6375FADD601F22FA"
+				item: "immersiveengineering:component_electronic_adv"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4599F0952967028B"]
+			id: "79BF870F95A8D0AD"
+			tasks: [{
+				id: "19250BF1257C163B"
+				item: "kubejs:hot_liquid_netherite_crucible"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"79BF870F95A8D0AD"
+				"1D41C21EF38DE23A"
+			]
+			id: "722A67329F657F48"
+			tasks: [{
+				id: "5ADE6E7EB952C73B"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51364AD33D012972"]
+			id: "0F0BF5E518894CE5"
+			tasks: [{
+				id: "50149DB3E959260A"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4599F0952967028B"]
+			id: "70389955703D5AD8"
+			tasks: [{
+				id: "7DB779A4D7715939"
+				item: "kubejs:reinforced_engineering_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1409B806C25E65F9"]
+			id: "1B2E07C79E484C31"
+			tasks: [{
+				id: "1446CE81612D8376"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EEA4F0382100EC0"]
+			id: "04F1C08CB4D0EBCB"
+			tasks: [{
+				id: "1B4C5354A3D0EABA"
+				item: "kubejs:industrial_engineering_block"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D41C21EF38DE23A"]
+			id: "705FDABB9252F83E"
+			tasks: [{
+				id: "60438483857A8FAC"
+				item: "kubejs:light_oil_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D41C21EF38DE23A"]
+			id: "3A08F04485F15EE4"
+			tasks: [{
+				id: "37A9DA22F945AA59"
+				item: "kubejs:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A08F04485F15EE4"]
+			id: "3AE3F2AFE38E04E9"
+			tasks: [{
+				id: "78B39EA56CF33736"
+				item: "kubejs:lubricant_item"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A08F04485F15EE4"]
+			id: "5CB7DAACA4A65514"
+			tasks: [{
+				id: "21C45C6299D5E37E"
+				item: "kubejs:raw_fuel_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["705FDABB9252F83E"]
+			id: "0A1E02329CA1B678"
+			tasks: [{
+				id: "6CC2B4F8C05F9224"
+				item: "kubejs:gasoline_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["705FDABB9252F83E"]
+			id: "3D97BE3531515001"
+			tasks: [{
+				id: "79B1FB5369E9607C"
+				item: "kubejs:diesel_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D41C21EF38DE23A"]
+			id: "65DCB533DF1D1BEE"
+			tasks: [{
+				id: "45EDF0460E9C240E"
+				item: "kubejs:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D41C21EF38DE23A"]
+			id: "5CF312CAA881A47E"
+			tasks: [{
+				id: "755832A15C1C360A"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5CF312CAA881A47E"]
+			id: "2FB4501284880165"
+			tasks: [{
+				id: "2A16169E3D48B33E"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FB4501284880165"]
+			id: "0ECE9D9156FAF9FF"
+			tasks: [{
+				id: "0500A3FE424449FF"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["722A67329F657F48"]
+			id: "5EA74EAC3F84DB16"
+			tasks: [{
+				id: "3B3CCFC0360A3E0D"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["722A67329F657F48"]
+			id: "73AB7891B3396905"
+			tasks: [{
+				id: "468A9ECE47BE690D"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73AB7891B3396905"]
+			id: "003F6247F8D11225"
+			tasks: [{
+				id: "4CA3A0FAD8B5FFCE"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EA74EAC3F84DB16"]
+			id: "1240D1BDBFEAFFD5"
+			tasks: [{
+				id: "53749FBBA953E05B"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EA74EAC3F84DB16"]
+			id: "2D7FCF44C27B8B20"
+			tasks: [{
+				id: "72E603596D4FCB40"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D7FCF44C27B8B20"]
+			id: "2E2FF375040AD95C"
+			tasks: [{
+				id: "13FE045420CC0964"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["003F6247F8D11225"]
+			id: "6AD90898B94BFE09"
+			tasks: [{
+				id: "590FF51492CD9F6B"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1240D1BDBFEAFFD5"]
+			id: "36BB9E768F7A1DB2"
+			tasks: [{
+				id: "16CF2B3F64ED1191"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AD90898B94BFE09"]
+			id: "1B7BF3901FBA842A"
+			tasks: [{
+				id: "5573C01677C98626"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E2FF375040AD95C"]
+			id: "556B0522CC697F32"
+			tasks: [{
+				id: "0393D58CC6921F6F"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E2FF375040AD95C"]
+			id: "1E330FE530F8ADF8"
+			tasks: [{
+				id: "0EDE1082B5E94733"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36BB9E768F7A1DB2"]
+			id: "0722A3DAD5A7764F"
+			tasks: [{
+				id: "3F62048CC17C4AE6"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0722A3DAD5A7764F"
+				"1E330FE530F8ADF8"
+				"1B7BF3901FBA842A"
+			]
+			id: "744E1958C8FDAA1F"
+			tasks: [{
+				id: "65D11F7A34C3857C"
+				item: "mekanismgenerators:fusion_reactor_controller"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"744E1958C8FDAA1F"
+				"3A9F215B6618BA86"
+			]
+			id: "35E02B11B64DA397"
+			tasks: [{
+				id: "243F830EE3C785AB"
+				item: "mekanism:supercharged_coil"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35E02B11B64DA397"]
+			id: "3E1D59ADC71CE86B"
+			tasks: [{
+				id: "3F3DE73FF926BEC1"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E1D59ADC71CE86B"]
+			id: "09DA2A8020F114F3"
+			subtitle: "You win!"
+			tasks: [{
+				id: "4606A72DCA11BC6A"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			title: "GG"
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0722A3DAD5A7764F"
+				"1E330FE530F8ADF8"
+				"1B7BF3901FBA842A"
+			]
+			id: "3A9F215B6618BA86"
+			tasks: [{
+				id: "705FADFA43B7615F"
+				item: "mekanismgenerators:fission_fuel_assembly"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CB7DAACA4A65514"]
+			id: "6017943B2D192069"
+			tasks: [{
+				id: "26CA35C90B87605B"
+				item: "kubejs:nether_diesel_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["722A67329F657F48"]
+			icon: "minecraft:sculk_sensor"
+			id: "25284B95AEE3E3F6"
+			tasks: [{
+				id: "289FF7EE31EC8636"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			title: "The Otherside!"
+			x: 11.5d
+			y: -2.5d
+		}
+	]
+	title: "Completion"
+}

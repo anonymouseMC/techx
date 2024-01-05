@@ -1,0 +1,887 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_4_mekanism"
+	group: "142E6238120445C3"
+	icon: "mekanism:module_color_modulation_unit"
+	id: "740CBD28B465AB8C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["376BA1583DC66E6E"]
+			id: "798D525E27CB4328"
+			size: 1.0d
+			tasks: [{
+				id: "4B4E21A77203173F"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["376BA1583DC66E6E"]
+			description: ["It drops from a warden, good luck!"]
+			id: "14B41E876CB8AD23"
+			size: 1.0d
+			tasks: [{
+				id: "26361255503CA763"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["14B41E876CB8AD23"]
+			icon: "minecraft:reinforced_deepslate"
+			id: "6619F32B3C26ECC8"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "79B896D691243800"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CA98560193BD614"]
+			id: "5955BA923E77096A"
+			tasks: [
+				{
+					id: "180B7067161DAF9D"
+					item: "kubejs:sculked_uranium"
+					type: "item"
+				}
+				{
+					id: "1E8A5DF7F3B23F8F"
+					item: "kubejs:gloomed_uranium"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5275C60E1F6E5A7C"
+				"70AA3EE18A98EA1F"
+				"20A9B3B77266ECD4"
+			]
+			id: "5108D51DD6850AC0"
+			tasks: [
+				{
+					id: "287BF3E2FFF00476"
+					item: "kubejs:sculked_fluorite"
+					type: "item"
+				}
+				{
+					id: "78D74E290B197D0C"
+					item: "kubejs:gloomed_fluorite"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["091DEDA51521DF3C"]
+			id: "27078859D3D33E33"
+			tasks: [
+				{
+					id: "4D1A409F6EB0D829"
+					item: "kubejs:sculked_lead"
+					type: "item"
+				}
+				{
+					id: "08F823D43C2B9714"
+					item: "kubejs:sculked_tin"
+					type: "item"
+				}
+			]
+			title: "Kickstarters: Sculk"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7DB66945BDC4B3EF"
+				"25EF7DB6EA3F110A"
+			]
+			description: [
+				"You may have noticed that refining any ore from the otherside (apart from lead \\& tin) requires either &bsculk acid&r, or &6gloom acid&r"
+				""
+				"You will have to figure out a system to... balance the amount of acid produced as a byproduct, and the new creation of acid from lead and tin."
+				""
+				"For now, the only way to make new acid is from lead \\& tin, but later on, there is a nuclear solution..."
+			]
+			id: "0DEABB44A6E22B20"
+			subtitle: "Two types of the same ore?"
+			tasks: [
+				{
+					id: "7CA523E52BB56C91"
+					item: "kubejs:sculked_osmium"
+					type: "item"
+				}
+				{
+					id: "664655CBFC7BA515"
+					item: "kubejs:gloomed_osmium"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B9EA9D2C5C839EF"]
+			id: "2F41637285CB3AC6"
+			tasks: [
+				{
+					id: "35DD653D41093606"
+					item: "kubejs:gloomed_tin"
+					type: "item"
+				}
+				{
+					id: "3D1083CD57B43D91"
+					item: "kubejs:gloomed_lead"
+					type: "item"
+				}
+			]
+			title: "Kickstarters: Gloom"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F41637285CB3AC6"]
+			id: "25EF7DB6EA3F110A"
+			tasks: [{
+				id: "0262589154708E5C"
+				item: "kubejs:gloom_acid_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27078859D3D33E33"]
+			id: "7DB66945BDC4B3EF"
+			tasks: [{
+				id: "0FFBF942E7F6EB0E"
+				item: "kubejs:sculk_acid_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C6AEEEDA710935B"]
+			description: [
+				"The ender chest is the only way to automate getting items out of the otherside. Its crucial difference to the normal ender chest is that it is not player-specific, and can be automatically inserted/removed from."
+				""
+				"The difficulty here, is that there is only 9 slots in the chest, and you need to find a way to extract 10 different ores."
+				""
+				"&7Note: You cant dye the chest like you might expect. One chest for everything!&r"
+			]
+			id: "444156869ED47789"
+			subtitle: "Not so unstable"
+			tasks: [{
+				id: "2AD189D2111C4124"
+				item: {
+					Count: 1b
+					id: "enderchests:ender_chest"
+					tag: {
+						code: "FFF"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6619F32B3C26ECC8"]
+			id: "3C6AEEEDA710935B"
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				icon: "deeperdarker:echo_log"
+				id: "047871B3A118D21E"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6619F32B3C26ECC8"]
+			id: "091DEDA51521DF3C"
+			tasks: [{
+				biome: "deeperdarker:deeplands"
+				icon: "minecraft:sculk"
+				id: "267D747CCD51F913"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6619F32B3C26ECC8"]
+			id: "4B9EA9D2C5C839EF"
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				icon: "deeperdarker:gloomy_sculk"
+				id: "67D331255059AAFD"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DEABB44A6E22B20"]
+			id: "65D3C175EBF908AA"
+			tasks: [{
+				id: "04C22C6C643D323E"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"197938CC2D9C987B"
+				"56F067F7B8141290"
+			]
+			id: "15DAC23AF060BFEC"
+			tasks: [{
+				id: "1B2A95BE0FA85A5D"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["65D3C175EBF908AA"]
+			id: "197938CC2D9C987B"
+			tasks: [{
+				id: "5EEBB351E747291F"
+				item: "kubejs:unprepared_printed_basic_circuit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["798D525E27CB4328"]
+			id: "56F067F7B8141290"
+			tasks: [{
+				id: "41D3B998755E197B"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["798D525E27CB4328"]
+			id: "5273BF5F97787EAA"
+			tasks: [{
+				id: "4686CA0350E1B1ED"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"35E1C13A0623CDE2"
+				"0F33E578985BAEBE"
+			]
+			id: "54261E27D316BD18"
+			tasks: [{
+				id: "5CC97B96403356E9"
+				item: "mekanism:nutritional_liquifier"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"35E1C13A0623CDE2"
+				"0F33E578985BAEBE"
+			]
+			id: "333DBBD0FF581B78"
+			tasks: [{
+				id: "0536EB5BECE5D02A"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"35E1C13A0623CDE2"
+				"0F33E578985BAEBE"
+			]
+			id: "58D93505D2AD3486"
+			tasks: [{
+				id: "012ADE0B44996C69"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"35E1C13A0623CDE2"
+				"0F33E578985BAEBE"
+			]
+			id: "3271A6424D7C9E25"
+			tasks: [{
+				id: "4AFAC10BFD61F3AA"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["15DAC23AF060BFEC"]
+			id: "70AA3EE18A98EA1F"
+			tasks: [{
+				id: "3D6C97DEBBBFD347"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["15DAC23AF060BFEC"]
+			id: "5275C60E1F6E5A7C"
+			tasks: [{
+				id: "6102AAA3EDFEB69D"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["15DAC23AF060BFEC"]
+			id: "20A9B3B77266ECD4"
+			tasks: [{
+				id: "72CC7776FB77E80B"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["15DAC23AF060BFEC"]
+			description: ["The condensentrator converts gasses to liquids, or liquids to gasses!"]
+			id: "68585D4EDCD04E55"
+			subtitle: "Dont worry about me for now!"
+			tasks: [{
+				id: "4171435F2F105614"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5108D51DD6850AC0"]
+			id: "65B7B24AC6C18494"
+			tasks: [{
+				id: "364BEBA577E2FF70"
+				item: "kubejs:monofluorium"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5108D51DD6850AC0"]
+			id: "394A3BA66DF128ED"
+			tasks: [{
+				id: "213894B4FEAF1A3E"
+				item: "kubejs:flawed_multifluorium"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"394A3BA66DF128ED"
+				"65B7B24AC6C18494"
+			]
+			id: "03B41761F0374596"
+			tasks: [{
+				id: "290C9BFE583869A1"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["65B7B24AC6C18494"]
+			id: "56098AC0A0E068DA"
+			tasks: [{
+				id: "7FCB58524A36FC89"
+				item: "kubejs:unprepared_printed_advanced_circuit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["56098AC0A0E068DA"]
+			id: "35E1C13A0623CDE2"
+			tasks: [{
+				id: "2D21140895CBDF57"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["541EC30F1FE2B2C7"]
+			id: "210CF8B566B77478"
+			tasks: [{
+				id: "5DC362829AFD6E30"
+				item: "kubejs:encrusted_infused_alloy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["03B41761F0374596"]
+			id: "541EC30F1FE2B2C7"
+			tasks: [{
+				id: "1EA75453B0934798"
+				item: "kubejs:fluorite_packed_steel_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["210CF8B566B77478"]
+			id: "0F33E578985BAEBE"
+			tasks: [{
+				id: "2002609C75628BD8"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"35E1C13A0623CDE2"
+				"0F33E578985BAEBE"
+			]
+			id: "07607769BE9D619C"
+			tasks: [{
+				id: "0EB08857A5D54512"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"35E1C13A0623CDE2"
+				"0F33E578985BAEBE"
+			]
+			id: "497BCCC85D26651A"
+			tasks: [{
+				id: "49A392AD7173EAD5"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"35E1C13A0623CDE2"
+				"0F33E578985BAEBE"
+			]
+			id: "4665167D031162DF"
+			tasks: [{
+				id: "0E98F32040DA6E53"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4665167D031162DF"
+				"58D93505D2AD3486"
+				"07607769BE9D619C"
+				"3271A6424D7C9E25"
+				"333DBBD0FF581B78"
+				"54261E27D316BD18"
+				"497BCCC85D26651A"
+			]
+			description: [
+				"This, will be the most complex processing line yet. Its still pretty linear though."
+				"Good luck!"
+			]
+			id: "5CA98560193BD614"
+			subtitle: "Uranium Processing"
+			tasks: [{
+				id: "114F90CD66FADEE4"
+				title: "True Magnum Opus"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5955BA923E77096A"]
+			id: "4A152D0508C39B35"
+			tasks: [{
+				id: "4ADF32495FA2A696"
+				item: "mekanism:shard_uranium"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4A152D0508C39B35"]
+			id: "031DB039094B00F8"
+			tasks: [{
+				id: "20E2F44E37D7A66F"
+				item: "mekanism:clump_uranium"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["031DB039094B00F8"]
+			id: "334802B8FC37EDE0"
+			tasks: [{
+				id: "4D48803DD2019FFD"
+				item: "mekanism:dirty_dust_uranium"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["334802B8FC37EDE0"]
+			id: "53654AF0797BE630"
+			tasks: [{
+				id: "3B7CBD8ADB5ED464"
+				item: "mekanism:dust_uranium"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["53654AF0797BE630"]
+			id: "1ACA1A2513584248"
+			tasks: [{
+				id: "4C46A642D0A956F9"
+				item: "kubejs:fine_uranium_powder"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1ACA1A2513584248"]
+			id: "120CDF5F1E098C02"
+			tasks: [{
+				id: "484CCF5C407CB4DC"
+				item: "kubejs:aqueous_uranium_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["120CDF5F1E098C02"]
+			id: "379898A3C99FB6B8"
+			tasks: [{
+				id: "4BB073DCB3D8E581"
+				item: "kubejs:uranium_quadroxide_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["379898A3C99FB6B8"]
+			id: "4A3E667BDF88CDF0"
+			tasks: [{
+				id: "102B701E92F282E7"
+				item: "kubejs:turgid_uranium_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4A3E667BDF88CDF0"]
+			id: "28DEB0925CA31C22"
+			tasks: [{
+				id: "197488457A259507"
+				item: "kubejs:uranyl_carbonate_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["07D279AE29C49E3F"]
+			id: "407D6A66A7A5D649"
+			tasks: [{
+				id: "24CE3CCB728577D1"
+				item: "kubejs:uranium_peroxide_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["28DEB0925CA31C22"]
+			id: "07D279AE29C49E3F"
+			tasks: [{
+				id: "68126764DF46776A"
+				title: "Uranium Solution"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["407D6A66A7A5D649"]
+			id: "48EBC6D692B33491"
+			tasks: [{
+				id: "2A5905A3BB0CD815"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["48EBC6D692B33491"]
+			id: "68DD2DF3EA774F05"
+			tasks: [{
+				id: "4D3667523F82A96C"
+				item: "kubejs:uranium_trioxide_cake"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["68DD2DF3EA774F05"]
+			id: "41049813055614E8"
+			tasks: [{
+				id: "514FA8FB037B2E75"
+				item: "kubejs:uranium_tetrafluoride"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["41049813055614E8"]
+			id: "4DF5CDD4C066ADEB"
+			tasks: [{
+				id: "0C81FE7F918CCE05"
+				item: "mekanism:nugget_uranium"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5955BA923E77096A"]
+			id: "0156CBF3CEBE35A0"
+			tasks: [{
+				id: "7585FFF14FD070E0"
+				item: "immersiveengineering:redstone_acid_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5955BA923E77096A"]
+			id: "750244C54A339B9C"
+			tasks: [{
+				id: "43EE1965DE6BD198"
+				item: "kubejs:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5955BA923E77096A"]
+			id: "767F350DD2485CFF"
+			tasks: [{
+				id: "6AFA824BA20C0BC0"
+				item: "mekanism:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5955BA923E77096A"]
+			id: "41DEC306A8D16519"
+			tasks: [{
+				id: "4F7CDEFD697B5966"
+				title: "Hydrogen Peroxide"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5955BA923E77096A"]
+			id: "739D814C73CB00F1"
+			tasks: [{
+				id: "37314B0EE5556C11"
+				item: "mekanism:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4DF5CDD4C066ADEB"]
+			id: "7C81FAE431CB8581"
+			tasks: [{
+				id: "7CE272C46F85F741"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4DF5CDD4C066ADEB"]
+			id: "18B48486E594DFAC"
+			tasks: [{
+				id: "19346BCCAC086886"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["02A9FAF7B1075A67"]
+			id: "204FF9A642BC8783"
+			tasks: [{
+				id: "302E4A697B4C7BC7"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["15D19EA34E2EDCFC"]
+			id: "02A9FAF7B1075A67"
+			tasks: [{
+				id: "1F6932EFAC65BC3A"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6910AC1B99EF7008"]
+			id: "15D19EA34E2EDCFC"
+			tasks: [{
+				id: "03268EAF08DA8C2D"
+				item: "mekanism:uranium_hexafluoride_bucket"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48EBC6D692B33491"]
+			id: "6910AC1B99EF7008"
+			tasks: [{
+				id: "08DDBF5CB9C165FC"
+				item: "mekanism:uranium_oxide_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7C81FAE431CB8581"
+				"204FF9A642BC8783"
+			]
+			id: "4316FED0E3C764F9"
+			tasks: [{
+				id: "0533E2E124FCDDBD"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"18B48486E594DFAC"
+				"204FF9A642BC8783"
+			]
+			id: "368E45DEBE6648DB"
+			tasks: [{
+				id: "2DA6737723DC60FC"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"368E45DEBE6648DB"
+				"4316FED0E3C764F9"
+			]
+			id: "5D767DFEA8DE5CD0"
+			tasks: [{
+				id: "56486CD34A0486F6"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "Preparation for the endgame"
+			x: -22.0d
+			y: 9.0d
+		}
+	]
+	title: "&6Tier 4&r: Mekanism"
+}

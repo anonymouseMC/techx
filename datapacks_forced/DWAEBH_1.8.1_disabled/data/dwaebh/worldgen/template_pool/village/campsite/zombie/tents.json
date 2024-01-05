@@ -1,0 +1,30 @@
+{
+  "name": "dwaebh:village/campsite/zombie/tents",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 33.3,
+      "element": {
+        "location": "dwaebh:village/campsite/zombie/tents/tent_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 33.3,
+      "element": {
+        "location": "dwaebh:village/campsite/zombie/tents/tent_02",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 67.7,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

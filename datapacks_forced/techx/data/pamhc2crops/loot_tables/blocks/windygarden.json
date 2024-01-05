@@ -1,0 +1,110 @@
+{
+	"type": "minecraft:block",
+	"pools": [{
+		"rolls": 2,
+		"name": "shadedgarden0",
+		"functions": [{
+				"function": "minecraft:apply_bonus",
+				"enchantment": "minecraft:fortune",
+				"formula": "minecraft:uniform_bonus_count",
+				"parameters": {
+					"bonusMultiplier": 3
+				}
+			},
+			{
+				"function": "minecraft:explosion_decay"
+			}
+		],
+		"entries": [{
+				"type": "item",
+				"name": "pamhc2crops:asparagusseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:blueberryseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:brusselsproutseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:candleberryseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cottonseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cranberryseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:greengrapeseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:jicamaseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:kaleseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:milletseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:mulberryseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:okraseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:riceseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:spiceleafseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:tomatilloseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:waterchestnutseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:lotusseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cattailseeditem",
+				"weight": 1
+			},{"type":"item","name":"minecraft:stone","weight":1}
+		]
+	}]
+}

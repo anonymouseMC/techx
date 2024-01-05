@@ -1,0 +1,42 @@
+{
+  "name": "dwaebh:village/swamp/town_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "dwaebh:village/swamp/town_centers/swamp_fountain_01",
+        "processors": "dwaebh:street_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "dwaebh:village/swamp/town_centers/swamp_meeting_point_1",
+        "processors": "dwaebh:street_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "dwaebh:village/swamp/town_centers/swamp_meeting_point_2",
+        "processors": "dwaebh:street_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "dwaebh:village/swamp/town_centers/swamp_meeting_point_3",
+        "processors": "dwaebh:street_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

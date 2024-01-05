@@ -1,0 +1,15 @@
+{
+  "name": "dwaebh:village/cave/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "dwaebh:village/cave/terminators/terminator_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

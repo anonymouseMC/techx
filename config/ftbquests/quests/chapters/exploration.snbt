@@ -1,0 +1,1026 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "7919D056D869FB4C"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:grass_block"
+	id: "6C729B51B46FE40E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7D2B24242CC65E8D"
+			size: 1.0d
+			tasks: [{
+				id: "7D60D06C8FF44C1E"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "70A5E3796737655F"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "30591C573845F39A"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: false
+			id: "4776CF68F6B7CDB2"
+			size: 1.0d
+			tasks: [{
+				id: "6BABFF5F1DB3D956"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "1F378E100B7F0B75"
+			size: 1.0d
+			tasks: [{
+				id: "16C217DC0181F0FB"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			id: "145BBE20C2DA4E81"
+			size: 1.0d
+			tasks: [{
+				id: "76F0C6785243B67E"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "24305EE2E36A4D4A"
+			size: 1.0d
+			tasks: [{
+				id: "63814A02159290E2"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "449AB4C15205CE63"
+			size: 1.0d
+			tasks: [{
+				id: "3E8B9D36B7A7259C"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "768DEFBF1EB142EB"
+			size: 1.0d
+			tasks: [{
+				id: "72462CED939276DC"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			id: "20B36A4F678FCC5C"
+			size: 1.0d
+			tasks: [{
+				id: "0E921ED82833296F"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74CFF0640AEB6A69"]
+			id: "1079D649A1D1C702"
+			size: 1.0d
+			tasks: [{
+				id: "0AFC648864B33F49"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "083B5431E409EA0C"
+			size: 1.0d
+			tasks: [{
+				id: "5A7511273D536D7B"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			id: "272EACC2B70D2D8D"
+			size: 1.0d
+			tasks: [{
+				id: "257DFFD44B333937"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "5F7E3B178F6DF919"
+			size: 1.0d
+			tasks: [{
+				id: "7502FB07CF768F41"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "3DB409666E629943"
+			size: 1.0d
+			tasks: [{
+				id: "29541686AD460AB2"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74CFF0640AEB6A69"]
+			id: "50381C4554446A75"
+			size: 1.0d
+			tasks: [{
+				id: "2B5D0851188E1ABF"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3DB409666E629943"
+				"7D2B24242CC65E8D"
+				"70A5E3796737655F"
+				"4776CF68F6B7CDB2"
+				"272EACC2B70D2D8D"
+				"50381C4554446A75"
+				"5F7E3B178F6DF919"
+				"145BBE20C2DA4E81"
+				"24305EE2E36A4D4A"
+				"768DEFBF1EB142EB"
+				"1F378E100B7F0B75"
+				"449AB4C15205CE63"
+				"20B36A4F678FCC5C"
+				"1079D649A1D1C702"
+				"083B5431E409EA0C"
+			]
+			description: [
+				"To open the end portal, you need 12 of the 15 eyes this quest depends on!"
+				"Each eye is found in a vanilla structure, or by defeating a boss."
+				""
+				"For instance:"
+				""
+				"&7Wither Eye&r - Defeat the wither"
+				"&6Old Eye&r - Found in a desert temple"
+			]
+			hide: false
+			id: "0E2BD3217077417E"
+			min_required_dependencies: 12
+			subtitle: "How the hell do I open this thing?"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "09959E81CAB27A83"
+				title: "Visit The End"
+				type: "dimension"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E2BD3217077417E"]
+			description: ["Kill the dragon, Finish vanilla minecraft!"]
+			id: "753E151C11EDDF7A"
+			subtitle: "Kill an Ender Dragon"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "218E2E39C8917376"
+				title: "Kingpin"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "74CFF0640AEB6A69"
+			subtitle: "Youre going to need to get some kelp"
+			tasks: [{
+				biome: "#minecraft:is_ocean"
+				icon: "minecraft:tropical_fish_bucket"
+				id: "6BFF594A72B69269"
+				type: "biome"
+			}]
+			title: "I can see the sea!"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74CFF0640AEB6A69"]
+			description: ["Create uses dried kelp in recipes quite a lot, collect lots of this! Setup a little farm!"]
+			hide: false
+			id: "1AEB6BE00FC32B26"
+			shape: "rsquare"
+			subtitle: "You're REALLY going to want this."
+			tasks: [{
+				count: 128L
+				id: "4F3C6B53BD7B5090"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			title: "Kelp Kollector"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74CFF0640AEB6A69"]
+			description: ["Copper diving gear can be made relatively early on, and makes exploring ocean monuments much easier!"]
+			icon: {
+				Count: 1b
+				id: "create:copper_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40FB242E74A14FCA"
+			subtitle: "Potions no more"
+			tasks: [
+				{
+					id: "65DE1D1FE6EAD6F0"
+					item: {
+						Count: 1b
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18AC236A5565C121"
+					item: {
+						Count: 1b
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A905107449C4768"
+					item: {
+						Count: 1b
+						id: "create:copper_backtank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Diving Down"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "0EA5C3592ABB6173"
+			tasks: [{
+				id: "6904ED1D4F262B46"
+				item: "minecraft:cobbled_deepslate"
+				type: "item"
+			}]
+			title: "How the hell am I below 0?"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EA5C3592ABB6173"]
+			description: ["Rope is an invaluable tool for exploring caves, it places like inversed scaffolding allowing you to climb from a high place to a low place!"]
+			id: "36117F0E90402B5D"
+			subtitle: "Terraria players rejoice!"
+			tasks: [{
+				id: "5DD478FB91BD602A"
+				item: "supplementaries:rope"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["36117F0E90402B5D"]
+			description: ["Now you can deploy rope stacks from range!"]
+			id: "3609FFD312F5A7CF"
+			subtitle: "Ranged!"
+			tasks: [{
+				id: "2A2C8DD97855526D"
+				item: {
+					Count: 1b
+					id: "supplementaries:rope_arrow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EA5C3592ABB6173"]
+			description: [
+				"The quiver is a useful tool for bow-fans!"
+				""
+				"Place arrows into it by right clicking it with an arrow in your cursor!"
+				""
+				"To equip it, press the circular icon next to your player in the inventory, then equip it onto your back!"
+			]
+			id: "14330F0020A703CE"
+			subtitle: "Arrows in your offhand?"
+			tasks: [{
+				id: "6526C5A1AE5EBDF0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Waystones sometimes spawn randomly in the world, sometimes also in villages."
+				""
+				"You can teleport from any waystone, to any waystone!"
+			]
+			id: "2C06386CAE7F2850"
+			subtitle: "Teleportation!"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "2B626F9D6CD91593"
+				observe_type: 0
+				timer: 0L
+				to_observe: "waystones:waystone"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"This modpack includes &3Cold Sweat&r, A mod which makes high and cold temparatures dangerous. Unfortunatly for you, this is something else you are going to have to worry about."
+				""
+				"Temparature is affected by the following:"
+				"- Nearby biomes"
+				"- Time of day &7(Nighttimes are cold!)&r"
+				"- Nearby blocks &7(Lava is hot!)&r"
+				""
+				"{image:kubejs:textures/quest/heat.png width:300 height:100 align:1 fit:true}"
+				""
+				"Left icon - Temparature of your environment"
+				"Middle \\& Right - Your temparature!"
+			]
+			icon: "kubejs:temp_4"
+			id: "4A263335C162EEC6"
+			subtitle: "Your troubles start now."
+			tasks: [{
+				elapsedTime: 300L
+				id: "0597616DBB80574F"
+				type: "questsadditions:time"
+			}]
+			title: "What the hell is this thing?"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A263335C162EEC6"]
+			description: ["The boiler is a furnace for heating &oyou&r up. It'll accept coal, charcoal, magma, and lava buckets as fuel! "]
+			hide: false
+			icon: "kubejs:temp_0"
+			id: "3AFBA95C1EB8F224"
+			subtitle: "Its cold in the depths..."
+			tasks: [{
+				id: "0317AFB96E264477"
+				item: "cold_sweat:boiler"
+				type: "item"
+			}]
+			title: "Warming yourself up"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A263335C162EEC6"]
+			description: ["The Icebox is a tool for cooling down yourself. It'll accept clay, snowballs, snow blocks, water buckets, ice, and packed ice!"]
+			hide: false
+			icon: "kubejs:temp_8"
+			id: "5E3D44CD8DD8019B"
+			subtitle: "In the desert, the reptiles bask."
+			tasks: [{
+				id: "5B5F8DC5656B67E1"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			title: "Cooling yourself down"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4A263335C162EEC6"
+				"5E3D44CD8DD8019B"
+				"3AFBA95C1EB8F224"
+			]
+			description: [
+				"You may have noticed that both the Icebox and the Boiler have slots in them. These are for the &bWaterskin&r."
+				""
+				"You can heat and cool waterskins and carry them with you, making them function as portable, personal heat sources!"
+				""
+				"&bNote: Waterskins need to be in your hotbar to function! This also means that waterskins in your inventory wont have your body heat dissapated into them!&r"
+			]
+			hide: false
+			id: "4D8BA5FB5270866C"
+			subtitle: "Passive Protection"
+			tasks: [{
+				id: "6736D47774C03BF8"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D8BA5FB5270866C"]
+			description: ["The sewing table allows you to stitch &oLinings&r to your armour! Linings dont generate heat or actively cool you down, but they will slow the rate at which the environment afflicts you!"]
+			id: "186CF0F0312D63FA"
+			subtitle: "Elemental Isolation"
+			tasks: [{
+				id: "31E3D1B04EC78D48"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["186CF0F0312D63FA"]
+			description: ["If you encounter a &eGoat&r in your world, rejoice! Your life has probably just been made much easier. Shearing a goat will give you some &6Goat Fur&r, which is great at protecting you from the elements!"]
+			id: "6546B6930B327138"
+			subtitle: "This may take a while to get"
+			tasks: [{
+				id: "7FBB785C03982664"
+				item: "cold_sweat:fur"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["186CF0F0312D63FA"]
+			description: ["Hoglins will drop &cHoglin Hide&r when they die, its a fantastic linoleator of heat!"]
+			id: "6C221911E46211B8"
+			subtitle: "Improved protection!"
+			tasks: [{
+				id: "2E59DDC1ECF50733"
+				item: "cold_sweat:hoglin_hide"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["186CF0F0312D63FA"]
+			description: ["Wool will protect you from being cold, but its not very effective. But for how easy it is to find, its good enough!"]
+			id: "2E4C8E6F15611B91"
+			subtitle: "Good enough protection"
+			tasks: [{
+				id: "50B53C6DF34932A1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["186CF0F0312D63FA"]
+			description: ["Cool gel is a combination of tree sap and water. Youre going to slather this over the inside of your armour. Its not pretty."]
+			id: "7BE0EA1544236031"
+			subtitle: "Sticky..."
+			tasks: [{
+				id: "7B2E72EA76DF2444"
+				item: "kubejs:cool_gel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["186CF0F0312D63FA"]
+			description: [
+				"The be-all end-all of \"Good Protection\" from temparature is &aChameleons&r. They are tough to find, spawning most commonly in bamboo forests and other tropical areas. A few times per day, they will shed some of their skin."
+				""
+				"&2Chameleon Molt&r has the magical property of not only changing colours, but also insulating you from both hot and cold temparatures!"
+				""
+				"&7Note: The Molt takes some time to \"adapt\" to temparatures, so be careful using it in the nether!&r"
+			]
+			id: "3EF41CAF30C6EDB3"
+			subtitle: "Icky."
+			tasks: [{
+				icon: "cold_sweat:chameleon_molt"
+				id: "0E9E4FC2A1641385"
+				observe_type: 5
+				timer: 0L
+				title: "Observe: Chameleon"
+				to_observe: "cold_sweat:chameleon"
+				type: "observation"
+			}]
+			title: "Disgusting"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5E3D44CD8DD8019B"
+				"132130D206288E0A"
+			]
+			description: [
+				"Once you unlock the nether, getting around is going to be difficult. Youre going to be constantly cooling yourself down! While you can use waterskins to get around a little, it gets tedious quickly."
+				""
+				"Enter: The &bSoulspring Lamp&r. While fueled, itll protect you from the intense heats of the nether. The fuel however..."
+			]
+			id: "4B80BBAA079A3E72"
+			subtitle: "Essential!"
+			tasks: [{
+				id: "33A0FE6214F25056"
+				item: {
+					Count: 1b
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						fuel: 64.0d
+						isOn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B80BBAA079A3E72"]
+			description: [
+				"Soul sprouts are the fuel for your new fancy lamp. If you find some, setup a small farm! "
+				""
+				"&7Note: If you really cant find these, theres a recipe that allows you to sift through soul soil to find some! Its a 1/64 chance per soul sand. So, a stack of soul sand should give you one seed!&r"
+			]
+			id: "719ECD178CB5B18D"
+			subtitle: "Keep it safe!"
+			tasks: [{
+				id: "29C0DD51245A31C5"
+				item: "cold_sweat:soul_sprout"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "132130D206288E0A"
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "minecraft:netherrack"
+				id: "4BA955D472947C20"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"40FB242E74A14FCA"
+				"132130D206288E0A"
+			]
+			description: ["Yes. You can go swimming in pools of lava with this."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "create:netherite_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6EFD252469DB4467"
+			subtitle: "WTF???"
+			tasks: [
+				{
+					id: "086EB0426231F0DD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "113EA63A02094207"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:netherite_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60DDB7F73EC18C9E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:netherite_backtank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Lava diving??"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AFBA95C1EB8F224"]
+			description: ["Campfires are a great way to warm up your environment, Cheap!"]
+			id: "2061E8F75DC1BB57"
+			subtitle: "Finally has a use!"
+			tasks: [{
+				id: "354E70021A89112E"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C221911E46211B8"]
+			id: "4F0CD7EF51DEC8C5"
+			tasks: [{
+				id: "7FD7B6223ECCE673"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6546B6930B327138"]
+			id: "60129CFB2E1CC5F6"
+			tasks: [{
+				id: "010167056B0D48D3"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "cold_sweat:ice_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: ["It works exactly how you think it would. You now have to worry about not only hunger, but also how quenched you are!"]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "thirst:terracotta_water_bowl"
+				tag: {
+					Purity: -1
+				}
+			}
+			id: "4CE06D2036085687"
+			subtitle: "Its thirst"
+			tasks: [{
+				id: "671DB7E18C61EB55"
+				type: "checkmark"
+			}]
+			title: "WTF is this thing above my hunger?"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CE06D2036085687"]
+			hide: false
+			id: "532AE48FEDCC65BB"
+			subtitle: "A lot easier to make!"
+			tasks: [{
+				id: "0D0FED6E8D12D82E"
+				item: "thirst:clay_bowl"
+				type: "item"
+			}]
+			title: "Glass is overrated"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["532AE48FEDCC65BB"]
+			hide: false
+			id: "413F97BDBEBCDB7A"
+			subtitle: "Its a bowl."
+			tasks: [{
+				id: "136B583D6F7C1B40"
+				item: "thirst:terracotta_bowl"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["413F97BDBEBCDB7A"]
+			hide: false
+			id: "30E31013B7D176EA"
+			tasks: [{
+				id: "445F9032677C046C"
+				item: {
+					Count: 1b
+					id: "thirst:terracotta_water_bowl"
+					tag: {
+						Purity: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "River Water"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30E31013B7D176EA"
+				"2061E8F75DC1BB57"
+			]
+			description: [
+				"By smelting a container of water in a furnace, or by roasting it on a campfire, you can increase its purity. While you can use a furnace, campfires use no fuel!"
+				""
+				"Another note about water: Source blocks are always Dirty, Flowing water is always Slightly Dirty. Dont purify a bucket and place it!!"
+			]
+			hide: false
+			id: "2CCA1C716F1FD7CD"
+			subtitle: "I can see my reflection!"
+			tasks: [{
+				id: "6EB9B9DFEB244B0B"
+				item: {
+					Count: 1b
+					id: "thirst:terracotta_water_bowl"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "Crystal Clear"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The Mineral Survey Kit samples the ground below you for ores below bedrock, while you yourself cant mine them, machines certainly can!"
+				""
+				"The Engineers Manual has a section showing you what the names of ores actually contain!"
+				"Different dimentions contain different ore veins!"
+			]
+			id: "738DFE111C653E0F"
+			shape: "rsquare"
+			subtitle: "Surveyor of places!"
+			tasks: [{
+				id: "74851A3C1D4E9810"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:survey_tools"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["738DFE111C653E0F"]
+			description: ["The core sample drill, when powered and clicked, will tell you *exactly* whats below you!"]
+			id: "5FB1636FCD24C103"
+			subtitle: "Whats actually below me?"
+			tasks: [{
+				id: "78094392F7377BC3"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5FB1636FCD24C103"]
+			id: "695A43F3A3B70FBD"
+			tasks: [{
+				id: "1B5B9F75B22E0FBB"
+				item: "immersiveengineering:bucket_wheel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5FB1636FCD24C103"]
+			id: "0582B5FDEFD47AAF"
+			tasks: [{
+				id: "230953C6F220EC45"
+				item: "immersiveengineering:excavator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2CCA1C716F1FD7CD"]
+			id: "0B8EF108B76E9A0D"
+			tasks: [{
+				id: "736E0C9E36BCC070"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "This works for bottles, too"
+			x: -4.0d
+			y: 3.0d
+		}
+	]
+	title: "A New World"
+}

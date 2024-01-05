@@ -1,0 +1,100 @@
+{
+	"type": "minecraft:block",
+	"pools": [{
+		"rolls": 2,
+		"name": "frostgarden0",
+		"functions": [{
+				"function": "minecraft:apply_bonus",
+				"enchantment": "minecraft:fortune",
+				"formula": "minecraft:uniform_bonus_count",
+				"parameters": {
+					"bonusMultiplier": 3
+				}
+			},
+			{
+				"function": "minecraft:explosion_decay"
+			}
+		],
+		"entries": [{
+				"type": "item",
+				"name": "pamhc2crops:broccoliseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cabbageseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cauliflowerseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:celeryseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cottonseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:huckleberryseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:juniperberryseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:kohlrabiseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:oatsseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:peasseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:quinoaseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:raspberryseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:rutabagaseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:ryeseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:spinachseeditem",
+				"weight": 1
+			},
+			{
+				"type": "item",
+				"name": "pamhc2crops:cloudberryseeditem",
+				"weight": 1
+			}
+		]
+	}]
+}
