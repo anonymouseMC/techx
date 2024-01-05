@@ -39,7 +39,3 @@
 <li>Avaritia endgame</li>
 </ul>
 <p><em>Note: This modpack was mainly designed for a small friend group who just couldnt find the right pack. With E2Extended getting too techy too fast, Create: Above &amp; Beyond not getting techy enough, and both being stuck on an old version. If its not for you, modify it!</em></p>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/konkrete">Konkrete [Forge] (by Keksuccino)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/shaders/complementary-reimagined">Complementary Shaders - Reimagined (by EminGTR)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore">FerriteCore (Forge) (by malte0811)</a></li>
-</ul>
