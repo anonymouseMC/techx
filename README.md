@@ -1,4 +1,5 @@
-<p align="center">A Multiplayer focused modpack about progressing through the "Ages" of tech.</p>
+<h3 align="center"><img alt="logo" height="100px" src="https://raw.githubusercontent.com/anonymouseMC/techx/master/pack_icon/controller-upscaled.png"/></h3>
+<h3 align="center">A Multiplayer focused modpack about progressing through the "Ages" of tech.</h3>
 <p>Progression follows four stages, starting out somewhere in the late bronze age with the create mod and ending with advanced future technologies with mekanism and AE2. Along with this, the progression from Iron to Diamond is now much harder, with diamonds only spawning below -64. The industry of this modpack is somewhat inspired by Factorio, and its accompanying mod Space Exploration.</p>
 <p><u>Features</u>:</p>
 <ul>
