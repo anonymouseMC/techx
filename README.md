@@ -1,6 +1,13 @@
 <h3 align="center"><img alt="logo" height="500px" src="https://raw.githubusercontent.com/anonymouseMC/techx/master/pack_icon/controller-upscaled.png"/></h3>
 <h3 align="center">A Multiplayer focused modpack about progressing through the "Ages" of tech.</h3>
 <p>Progression follows four stages, starting out somewhere in the late bronze age with the create mod and ending with advanced future technologies with mekanism and AE2. Along with this, the progression from Iron to Diamond is now much harder, with diamonds only spawning below -64. The industry of this modpack is somewhat inspired by Factorio, and its accompanying mod Space Exploration.</p>
+<p><u>Principles</u>:</p>
+<ul>
+<li><strong>No magic boxes that items come out of</strong>. Apart from in the end game, when precision-machining is feasable, machines are pretty big and clunky.</li>
+<li><strong>Learnable difficulty curve</strong>. Each 'new thing' is slightly harder to get than the previous thing.</li>
+<li><strong>Re-learned world</strong>. Explore more than just the world: Ores below bedrock, Air around you.</li>
+<li><strong>No one-size-fits-all</strong>. Theres many ways to do one thing, You can move items with trains, belts, or as data! Each has their benefits. Now apply this to everything!</li>
+</ul>
 <p><u>Features</u>:</p>
 <ul>
 <li>Almost new-player friendly: REI, Jade &amp; Tutorial quests guide players who are new to Create, Immersive Engineering and Mekanism through their mechanics.</li>
