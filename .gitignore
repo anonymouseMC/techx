@@ -27,6 +27,7 @@
 /imm_ptl_state.json
 /jemalloc.dll
 /jna*.dll
+/jna*.dll.x
 /lwjgl.dll
 /lwjgl_opengl.dll
 /lwjgl_stb.dll
