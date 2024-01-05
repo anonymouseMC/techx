@@ -1,4 +1,5 @@
-<p align="center">A Multiplayer focused modpack about progressing through the "Ages" of tech.</p>
+<h3 align="center"><img alt="logo" height="500px" src="https://raw.githubusercontent.com/anonymouseMC/techx/master/pack_icon/controller-upscaled.png"/></h3>
+<h3 align="center">A Multiplayer focused modpack about progressing through the "Ages" of tech.</h3>
 <p>Progression follows four stages, starting out somewhere in the late bronze age with the create mod and ending with advanced future technologies with mekanism and AE2. Along with this, the progression from Iron to Diamond is now much harder, with diamonds only spawning below -64. The industry of this modpack is somewhat inspired by Factorio, and its accompanying mod Space Exploration.</p>
 <p><u>Features</u>:</p>
 <ul>
@@ -38,7 +39,3 @@
 <li>Avaritia endgame</li>
 </ul>
 <p><em>Note: This modpack was mainly designed for a small friend group who just couldnt find the right pack. With E2Extended getting too techy too fast, Create: Above &amp; Beyond not getting techy enough, and both being stuck on an old version. If its not for you, modify it!</em></p>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/konkrete">Konkrete [Forge] (by Keksuccino)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/shaders/complementary-reimagined">Complementary Shaders - Reimagined (by EminGTR)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore">FerriteCore (Forge) (by malte0811)</a></li>
-</ul>
