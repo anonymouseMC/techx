@@ -12,7 +12,10 @@
 /modernfix
 /mods
 /not-enough-crashes
-/pack_icon
+
+/pack_icon/frames
+/pack_icon/frames_quarter
+
 /profileImage
 /resourcepacks
 /resources
