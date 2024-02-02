@@ -1892,7 +1892,7 @@
 			description: [
 				"Theres a lot of new items, and even more new recipes. Googling the answer isnt going to work all the time, because this is a modpack."
 				""
-				"The solution? REI. You may have noticed the gigantic list of every item to the right of your inventory. You can use this to search up items!"
+				"The solution? NEI. You may have noticed the gigantic list of every item to the right of your inventory. You can use this to search up items!"
 				""
 				"Press &6[U]&r on any item to see how it can be used!"
 				"Press &6[R]&r on any item to see how it can be made!"
@@ -2223,32 +2223,6 @@
 			}]
 			x: 0.5d
 			y: 20.0d
-		}
-		{
-			dependencies: ["0D26DA9623AE2C01"]
-			description: [
-				"Run it. REI (for some reason) does not index any sequenced assembly event until you have run /reload, probably because it forces itself to re-index all its recipes."
-				""
-				"Caused (probably) because of a race condition between kubejs executing and building its json recipes, and REI loading the recipe list, which is why this issue is mostly random."
-				""
-				"&eRunning /reload will fix the issues. The recipes still work even if the command isnt run though. Its just the preview in REI thats broken.&r"
-				""
-				"Sorry to everyone who got stuck because of this. Have something as consolation"
-			]
-			id: "1EDCA1244A85507F"
-			rewards: [{
-				id: "778FFF963682B1DC"
-				item: "pamhc2foodextended:sundayhighteaitem"
-				type: "item"
-			}]
-			subtitle: "/reload"
-			tasks: [{
-				id: "6835F77E92676329"
-				title: "REI Bugs!"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: 15.5d
 		}
 	]
 	title: "&aTier 1&r: Create"

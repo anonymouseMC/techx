@@ -3,7 +3,8 @@
 		"favorites": [
 			"{data:{Amount:1000,FluidName:\"kubejs:crystal_growth_medium\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"immersiveengineering:dust_nickel\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"mekanism:dust_copper\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"mekanism:dust_copper\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:suspicious_gravel\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [
 			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",

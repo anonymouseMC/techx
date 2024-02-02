@@ -75,11 +75,11 @@ ServerEvents.recipes( (event) => {
 		"heatRequirement":"heated",
 		"ingredients":[
 			{"amount":2,"item":"kubejs:nether_bauxite_chips"},
-			{"amount":3000, "fluid":"minecraft:water"}
+			{"amount":1000, "fluid":"minecraft:water"}
 		],
 		"results":[
 			{"amount":1, "item":"kubejs:soggy_bauxite_chips"},
-			{"amount":1000, "fluid":"kubejs:nether_slurry"},
+			{"amount":500, "fluid":"kubejs:nether_slurry"},
 			{"chance":0.5, "amount":2, "item":"kubejs:soggy_bauxite_chips"}
 		]
 	});

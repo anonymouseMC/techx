@@ -1,114 +1,50 @@
 {
-	"pamhc2foodcore:chickendinneritem": {
-		"food": 21,
+	"pamhc2foodextended:charsiuitem": {
+		"food": 30,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:paneertikkamasalaitem": {
-		"food": 35,
+	"pamhc2foodextended:ploughmanslunchitem": {
+		"food": 31,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:loadedbakedpotatoitem": {
-		"food": 22,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:delightedmealitem": {
-		"food": 32,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:toadintheholeitem": {
-		"food": 21,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:meesuaitem": {
-		"food": 23,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:southernstylebreakfastitem": {
-		"food": 22,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:friedfeastitem": {
-		"food": 39,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:battenbergitem": {
-		"food": 21,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:gourmetporkburgeritem": {
-		"food": 42,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:jambalayaitem": {
-		"food": 24,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:spaghettidinneritem": {
-		"food": 25,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:cookoutmealitem": {
-		"food": 32,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:bolognasandwichitem": {
-		"food": 28,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:meatloafsandwichitem": {
-		"food": 22,
+	"pamhc2foodextended:timpanoitem": {
+		"food": 37,
 		"sat": 1.2
 	},
 	"pamhc2foodextended:supremepizzaitem": {
 		"food": 21,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:sweetandsourchickenitem": {
-		"food": 26,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:koreandinneritem": {
-		"food": 40,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:chilidogitem": {
-		"food": 27,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:cornedbeefitem": {
-		"food": 29,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:kohlundpinkelitem": {
-		"food": 23,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:cantonesenoodlesitem": {
+	"pamhc2foodcore:baconcheeseburgeritem": {
 		"food": 25,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:epicbltitem": {
+	"pamhc2foodextended:paneertikkamasalaitem": {
+		"food": 35,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:toadintheholeitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:friedfeastitem": {
+		"food": 39,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cookoutmealitem": {
+		"food": 32,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:slawdogitem": {
+		"food": 24,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:homestylelunchitem": {
 		"food": 23,
 		"sat": 1.2
 	},
 	"pamhc2foodextended:deluxechickencurryitem": {
 		"food": 39,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:chimichangaitem": {
-		"food": 29,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:paradiseburgeritem": {
-		"food": 26,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:mcpamitem": {
-		"food": 21,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:charsiuitem": {
-		"food": 30,
 		"sat": 1.2
 	},
 	"pamhc2foodextended:berryvinaigrettesaladitem": {
@@ -119,64 +55,32 @@
 		"food": 44,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:deluxenachoesitem": {
-		"food": 30,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:heartybreakfastitem": {
-		"food": 24,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:timpanoitem": {
-		"food": 37,
-		"sat": 1.2
-	},
 	"pamhc2foodextended:cornedbeefbreakfastitem": {
 		"food": 44,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:slawdogitem": {
-		"food": 24,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:ploughmanslunchitem": {
-		"food": 31,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:coleslawburgeritem": {
-		"food": 29,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:meatfeastpizzaitem": {
-		"food": 27,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:deluxecheeseburgeritem": {
-		"food": 24,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:friedbolognasandwichitem": {
+	"pamhc2foodextended:kohlundpinkelitem": {
 		"food": 23,
 		"sat": 1.2
 	},
-	"pamhc2foodcore:baconcheeseburgeritem": {
-		"food": 25,
+	"pamhc2foodextended:ceasarsaladitem": {
+		"food": 22,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:pumpkinspicelatteitem": {
+	"pamhc2foodextended:meatloafsandwichitem": {
+		"food": 22,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:paradiseburgeritem": {
+		"food": 26,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mashedpotatoeschickenbiscuititem": {
 		"food": 21,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:cornedbeefhashitem": {
-		"food": 29,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:homestylelunchitem": {
-		"food": 23,
-		"sat": 1.2
-	},
-	"pamhc2foodextended:weekendpicnicitem": {
-		"food": 43,
+	"pamhc2foodextended:southernstylebreakfastitem": {
+		"food": 22,
 		"sat": 1.2
 	},
 	"pamhc2foodextended:hamsweetpicklesandwichitem": {
@@ -187,20 +91,116 @@
 		"food": 28,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:bentoboxitem": {
-		"food": 31,
+	"pamhc2foodextended:meatfeastpizzaitem": {
+		"food": 27,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:mashedpotatoeschickenbiscuititem": {
+	"pamhc2foodextended:meesuaitem": {
+		"food": 23,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chimichangaitem": {
+		"food": 29,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:gourmetporkburgeritem": {
+		"food": 42,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:pumpkinspicelatteitem": {
 		"food": 21,
 		"sat": 1.2
 	},
-	"pamhc2foodextended:ceasarsaladitem": {
-		"food": 22,
+	"pamhc2foodextended:jambalayaitem": {
+		"food": 24,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:heartybreakfastitem": {
+		"food": 24,
+		"sat": 1.2
+	},
+	"pamhc2foodcore:chickendinneritem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:chilidogitem": {
+		"food": 27,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bolognasandwichitem": {
+		"food": 28,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cantonesenoodlesitem": {
+		"food": 25,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:sweetandsourchickenitem": {
+		"food": 26,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:epicbltitem": {
+		"food": 23,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:weekendpicnicitem": {
+		"food": 43,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:koreandinneritem": {
+		"food": 40,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:coleslawburgeritem": {
+		"food": 29,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:deluxecheeseburgeritem": {
+		"food": 24,
 		"sat": 1.2
 	},
 	"pamhc2foodextended:gourmetmuttonburgeritem": {
 		"food": 40,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:bentoboxitem": {
+		"food": 31,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:mcpamitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:deluxenachoesitem": {
+		"food": 30,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:friedbolognasandwichitem": {
+		"food": 23,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:spaghettidinneritem": {
+		"food": 25,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:delightedmealitem": {
+		"food": 32,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:loadedbakedpotatoitem": {
+		"food": 22,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornedbeefitem": {
+		"food": 29,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:battenbergitem": {
+		"food": 21,
+		"sat": 1.2
+	},
+	"pamhc2foodextended:cornedbeefhashitem": {
+		"food": 29,
 		"sat": 1.2
 	}
 }
